@@ -1,0 +1,67 @@
+[
+  {
+    "id": "stay-1",
+    "name": "Villa Shanti Heritage Hotel",
+    "area": "White Town (French Quarter)",
+    "price_per_night": 6500,
+    "currency": "INR",
+    "rating": 4.8,
+    "reviews_count": 342,
+    "eco_badge": "Solar Powered & Zero Single-Use Plastics",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    "description": "19th-century Franco-Tamil townhouse with an airy inner patio, sustainable cooling architecture, and organic local breakfast.",
+    "amenities": ["Organic Café", "Bicycle Rental", "Solar Hot Water", "Rainwater Harvesting"]
+  },
+  {
+    "id": "stay-2",
+    "name": "Dune Eco Village & Beach Resort",
+    "area": "Puducherry Coast (Pudhukuppam)",
+    "price_per_night": 7900,
+    "currency": "INR",
+    "rating": 4.7,
+    "reviews_count": 520,
+    "eco_badge": "100% Certified Eco-Resort",
+    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+    "description": "35-acre organic farmland sanctuary featuring recycled heritage houses, Ayurvedic spa, and certified farm-to-table dining.",
+    "amenities": ["Organic Farm", "Solar Energy", "Composting", "Ayurvedic Spa"]
+  },
+  {
+    "id": "stay-3",
+    "name": "Maison Perumal - CGH Earth",
+    "area": "Heritage Town (Tamil Quarter)",
+    "price_per_night": 5200,
+    "currency": "INR",
+    "rating": 4.9,
+    "reviews_count": 289,
+    "eco_badge": "Heritage Conservation & Green Tourism",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+    "description": "Award-winning Chettinad-style restored residence honoring authentic Tamil crafts, terracotta tiles, and local community sourcing.",
+    "amenities": ["Local Craft Gallery", "Walking Tours", "Low Energy Lighting", "Eco Toiletries"]
+  },
+  {
+    "id": "stay-4",
+    "name": "Promenade Seafront Boutique Stay",
+    "area": "Goubert Avenue (Rock Beach)",
+    "price_per_night": 4800,
+    "currency": "INR",
+    "rating": 4.5,
+    "reviews_count": 410,
+    "eco_badge": "Ocean Conservation Partner",
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+    "description": "Overlooking the Bay of Bengal, offering panoramic ocean vistas and walking access to all White Town sights without vehicles.",
+    "amenities": ["Sea View", "EV Charging Point", "Beach Cleanup Drives", "Rooftop Bistro"]
+  },
+  {
+    "id": "stay-5",
+    "name": "Auroville Green Guesthouse",
+    "area": "Auroville Universal Township",
+    "price_per_night": 2200,
+    "currency": "INR",
+    "rating": 4.6,
+    "reviews_count": 195,
+    "eco_badge": "Carbon Neutral & Permaculture Living",
+    "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80",
+    "description": "Serene and budget-conscious forest retreat built with compressed earth blocks, solar power, and community kitchen.",
+    "amenities": ["Forest Trails", "Vegan Kitchen", "Earth Block Cooling", "Quiet Hours"]
+  }
+]

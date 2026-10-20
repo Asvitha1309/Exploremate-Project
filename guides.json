@@ -1,0 +1,109 @@
+{
+  "destination": "Pondicherry",
+  "disclaimer": "Travel rules and guidelines change periodically. Verify with official Puducherry government / municipality sources before relying on this.",
+  "local_rules": [
+    {
+      "id": "rule-plastic",
+      "title": "Strict Single-Use Plastic Ban",
+      "detail": "Puducherry strictly prohibits single-use plastic bags, disposable cutlery, and plastic cups across all heritage sectors, public parks, and coastal areas. Travelers are advised to carry reusable cloth tote bags and stainless steel refill flasks.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-promenade",
+      "title": "Promenade Vehicle Restriction Timings",
+      "detail": "Goubert Avenue (Rock Beach Promenade) is completely closed to motorized vehicular traffic every evening from 5:00 PM to 7:30 AM next morning, reserving the oceanfront as a zero-emission pedestrian promenade.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-swimming",
+      "title": "Rock Beach Swimming Prohibition",
+      "detail": "Swimming along the rocky seawall of Rock Beach / Promenade is strictly prohibited due to submerged tetrapod wave breaks and strong undertow currents. Safe sea bathing is recommended at Blue Flag-certified Eden Beach or Paradise Beach in monitored zones.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-quiet-hours",
+      "title": "White Town Heritage Quiet Hours & Parking",
+      "detail": "White Town is an active residential and heritage precinct. Quiet hours are observed between 10:00 PM and 6:00 AM. Motorists should respect low speed limits (20-30 km/h), avoid unnecessary honking, and park vehicles exclusively in designated municipality lots along the canal periphery.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-dress-code",
+      "title": "Modest Attire at Religious & Spiritual Sites",
+      "detail": "Modest attire covering shoulders and knees is appreciated when visiting Sri Aurobindo Ashram, Arulmigu Manakula Vinayagar Temple, Notre Dame des Anges, and the Basilica of the Sacred Heart. Footwear must be removed and placed at dedicated shoe stands before entering courtyards.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-photography",
+      "title": "Photography and Drone Protocols",
+      "detail": "Photography and videography are strictly prohibited inside the samadhi courtyard of Sri Aurobindo Ashram and the inner sanctums of ancient temples. Drone flying anywhere over coastal heritage zones requires prior formal clearance from local civil authorities.",
+      "last_verified": "2026-09",
+      "verify_before_use": true
+    },
+    {
+      "id": "rule-monsoon",
+      "title": "Northeast Monsoon & Coastal Sea Caution",
+      "detail": "The Coromandel coastal region receives significant monsoon rainfall between October and December. Visitors should monitor local weather bulletins, avoid standing near rocky seawall edges during high-swell warnings, and keep waterproof gear readily available.",
+      "last_verified": "2026-09",
+      "verify_before_use": true
+    },
+    {
+      "id": "rule-heat-hydration",
+      "title": "Tropical Coastal Heat & Hydration",
+      "detail": "Tropical midday temperatures often exceed 32°C with high relative humidity. Plan outdoor sightseeing during early morning (7:00 AM - 10:30 AM) or late afternoon (4:30 PM onwards), stay well hydrated with tender coconut water, and take advantage of shaded French colonial arcades.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    },
+    {
+      "id": "rule-auroville",
+      "title": "Auroville & Matrimandir Protocol",
+      "detail": "Auroville is an intentional international township promoting quiet collective harmony. Access to the Matrimandir inner meditation chamber requires in-person or online pass reservation in advance. Maintain silence in garden zones and respect organic farm boundaries.",
+      "last_verified": "2026-09",
+      "verify_before_use": false
+    }
+  ],
+  "culture_tips": [
+    {
+      "title": "Ashram & Shrine Etiquette",
+      "detail": "Silence must be maintained inside Sri Aurobindo Ashram and Matrimandir inner chamber. Photography is strictly prohibited inside temple sanctums and ashram courtyards. Modest attire covering shoulders and knees is appreciated.",
+      "last_verified": "2026-09"
+    },
+    {
+      "title": "Footwear Norms",
+      "detail": "Remove footwear before entering temples, spiritual centres, and traditional heritage homestays. Dedicated shoe deposit stands are available at major attractions.",
+      "last_verified": "2026-09"
+    },
+    {
+      "title": "Bicycle & Walking Friendly Rhythm",
+      "detail": "The French and Tamil quarters are best enjoyed at a leisurely pace by bicycle or on foot. Renting a city cycle is economical, eco-friendly, and aligns with the local peaceful lifestyle.",
+      "last_verified": "2026-09"
+    },
+    {
+      "title": "Language & Greetings",
+      "detail": "Tamil is the predominant local language, while French is still spoken by many elders and businesses. English is widely understood throughout hospitality and commercial sectors.",
+      "last_verified": "2026-09"
+    }
+  ],
+  "electrical_specs": {
+    "destination_standards": {
+      "plug_types": [
+        "Type C",
+        "Type D",
+        "Type M"
+      ],
+      "voltage": "230 V",
+      "frequency": "50 Hz",
+      "pin_layout_description": "Type C (2-pin round Europlug), Type D (3-pin round triangle plug), Type M (larger 3-pin for high power appliances)."
+    },
+    "comparison_with_india": {
+      "domestic_status": "Puducherry is a Union Territory of India. Standards are 100% identical to the Indian national electrical grid (230V, 50Hz, Type C/D/M).",
+      "adaptor_needed_for_domestic_travelers": "No adaptor needed if traveling from within India.",
+      "international_traveler_note": "Travelers from North America/Japan (110-120V) will require a step-down voltage converter unless devices are dual-voltage (100-240V). Travelers from UK/EU/US may need a universal pin adaptor to fit Type D sockets."
+    },
+    "verification_notice": "Always verify voltage compatibility on device labels before plugging in high-draw appliances."
+  }
+}

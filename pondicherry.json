@@ -1,0 +1,1881 @@
+{
+  "destination": "Pondicherry",
+  "alias_names": [
+    "pondicherry",
+    "puducherry",
+    "pondy",
+    "puducheri",
+    "pondychery",
+    "puducherry union territory"
+  ],
+  "tagline": "The French Riviera of the East · Eco-Heritage Coastal Haven",
+  "center_coordinates": {
+    "lat": 11.9338,
+    "lon": 79.8358
+  },
+  "transit_hubs": {
+    "railway_stations": [
+      {
+        "name": "Puducherry Railway Station (PDY)",
+        "code": "PDY",
+        "type": "Main Terminal Railway Station",
+        "lat": 11.9304,
+        "lon": 79.8306,
+        "address": "Subbiah Salai, South Boulevard, Puducherry 605001",
+        "booking_url": "https://www.irctc.co.in/nget/train-search",
+        "booking_portal": "IRCTC Official Portal",
+        "notes": "Southern Railway zone terminus connected to Chennai, Bengaluru, Delhi, Mumbai, and Kolkata."
+      }
+    ],
+    "bus_stands": [
+      {
+        "name": "Puducherry New Bus Stand (Maraimalai Adigal Salai)",
+        "code": "PRTC-NEW",
+        "type": "Interstate Bus Terminal (ISBT)",
+        "lat": 11.9351,
+        "lon": 79.8197,
+        "address": "Maraimalai Adigal Salai, Orleanpet, Puducherry 605013",
+        "booking_url": "https://www.redbus.in/bus-tickets/pondicherry-to-chennai",
+        "booking_portal": "redBus / PRTC / TNSTC Official Booking",
+        "notes": "Operates 24/7 buses to Chennai (ECR & Tindivanam routes), Bengaluru, Tirupati, Coimbatore, and Madurai."
+      },
+      {
+        "name": "Puducherry Old Town Bus Stand (Bussy Street)",
+        "code": "PRTC-OLD",
+        "type": "Local Town & Rural Bus Stop",
+        "lat": 11.936,
+        "lon": 79.825,
+        "address": "Near Government Maternity Hospital, Puducherry 605001",
+        "booking_url": "https://transport.py.gov.in/",
+        "booking_portal": "Puducherry Transport Department",
+        "notes": "Frequent local city buses to Auroville, JIPMER, Villianur, and Chunnambar."
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "aurobindo-ashram",
+      "name": "Sri Aurobindo Ashram",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Aurobindo_Ashram_Pondichery_-_Outside_view.jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Aurobindo_Ashram_Pondichery_-_Outside_view.jpg",
+      "rating": 4.8,
+      "review_summary": "Peaceful spiritual sanctum enveloped in meditative silence around the flower-strewn Samadhi.",
+      "opening_hours": {
+        "open_hour": 8,
+        "close_hour": 18,
+        "display": "08:00 AM - 12:00 PM & 02:00 PM - 06:00 PM"
+      },
+      "lat": 11.9366,
+      "long": 79.8344,
+      "nearby_place_ids": [
+        "manakula-vinayagar",
+        "french-quarter",
+        "promenade-beach"
+      ],
+      "guidelines": {
+        "dress_code": "Modest clothing covering shoulders and knees. Footwear must be removed at entry.",
+        "entry_fee": "Free",
+        "timings": "08:00 - 12:00 & 14:00 - 18:00 (Daily)",
+        "photography_rules": "Photography strictly prohibited inside the Ashram premises.",
+        "best_time_to_visit": "08:30 AM - 10:00 AM (Serene morning meditation)",
+        "things_to_avoid": "Talking loudly, mobile phone usage, carrying large baggage.",
+        "accessibility": "Ground floor courtyard and Samadhi area wheelchair accessible."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital (IGGGH&PGI)",
+        "distance": "1.1 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Documented local footfall survey & ashram visitor registry estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Medium",
+          "evening": "High"
+        },
+        "rush_hours": "09:30 AM - 11:00 AM & 04:30 PM - 05:45 PM on weekends"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "french-quarter",
+      "name": "White Town (French Heritage Quarter)",
+      "interest": "history",
+      "indoor": false,
+      "image": "/static/images/white_town_reference.jpg",
+      "image_credit": "ExploreMate Pondicherry Heritage Feed / Authentic Reference Photo",
+      "image_license": "ExploreMate Verified Collection",
+      "image_source_url": "local:static/images/white_town_reference.jpg",
+      "rating": 4.8,
+      "review_summary": "Pastel mustard yellow colonial villas, bougainvillea draped facades, and cobblestone lanes steeped in Franco-Tamil architecture.",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "Open 24 Hours (Best walking 06:30 AM - 08:30 PM)"
+      },
+      "lat": 11.932,
+      "long": 79.8335,
+      "nearby_place_ids": [
+        "promenade-beach",
+        "french-war-memorial",
+        "pondicherry-museum"
+      ],
+      "guidelines": {
+        "dress_code": "Casual walking or cycling attire; breathable cotton.",
+        "entry_fee": "Free public heritage quarter",
+        "timings": "Open 24/7 (Street lighting throughout)",
+        "photography_rules": "Exterior architectural photography permitted. Respect residential privacy.",
+        "best_time_to_visit": "06:30 AM - 09:00 AM for soft morning light and zero vehicle traffic.",
+        "things_to_avoid": "Littering, honking, loud shouting in residential streets.",
+        "accessibility": "Paved flat roads and pedestrian sidewalks; wheelchair & stroller friendly."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "0.7 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Heritage walking tour visitor estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Medium",
+          "evening": "High"
+        },
+        "rush_hours": "05:00 PM - 07:30 PM (Evening walkers and café goers)"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "promenade-beach",
+      "name": "Promenade Beach (Rock Beach)",
+      "interest": "nature",
+      "indoor": false,
+      "image": "/static/images/rock_beach.png",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Rock_Beach_Puducherry.jpg",
+      "rating": 4.7,
+      "review_summary": "1.5 km sea-facing promenade along the Bay of Bengal, completely vehicle-free in the evenings for eco-friendly walking.",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "Open 24 Hours (Pedestrian-only 05:00 PM - 07:30 AM)"
+      },
+      "lat": 11.9338,
+      "long": 79.8358,
+      "nearby_place_ids": [
+        "french-war-memorial",
+        "french-quarter",
+        "aurobindo-ashram"
+      ],
+      "guidelines": {
+        "dress_code": "Casual comfortable beachwear and walking shoes.",
+        "entry_fee": "Free",
+        "timings": "Open 24 Hours (Traffic barred 17:00 to 07:30 daily)",
+        "photography_rules": "Photography permitted without restrictions.",
+        "best_time_to_visit": "05:30 AM - 07:30 AM for sunrise or 17:30 - 20:30 for ocean breeze.",
+        "things_to_avoid": "Swimming into waves is strictly prohibited due to submerged boulders and dangerous undertows.",
+        "accessibility": "Wide level promenade suitable for wheelchairs and elderly walking."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "0.9 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Promenade municipal pedestrian flow estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Low",
+          "evening": "High"
+        },
+        "rush_hours": "06:00 PM - 08:30 PM on Saturdays and Sundays"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "manakula-vinayagar",
+      "name": "Arulmigu Manakula Vinayagar Temple",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Pondicherry_Manakula_Vinayagar_Temple.JPG",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Pondicherry_Manakula_Vinayagar_Temple.JPG",
+      "rating": 4.7,
+      "review_summary": "Ancient 500-year-old Ganesha temple renowned for golden chariot, intricate stone carved pillars, and rich Tamil Dravidian heritage.",
+      "opening_hours": {
+        "open_hour": 6,
+        "close_hour": 21,
+        "display": "05:45 AM - 12:30 PM & 04:00 PM - 09:30 PM"
+      },
+      "lat": 11.9362,
+      "long": 79.8335,
+      "nearby_place_ids": [
+        "aurobindo-ashram",
+        "french-quarter"
+      ],
+      "guidelines": {
+        "dress_code": "Traditional Hindu temple dress: pants/dhotis for men, sarees/churidars for women. Shorts and sleeveless garments strictly forbidden.",
+        "entry_fee": "Free general darshan (Special queue ₹50)",
+        "timings": "05:45 - 12:30 & 16:00 - 21:30 (Daily)",
+        "photography_rules": "Photography strictly forbidden inside the sanctum sanctorum.",
+        "best_time_to_visit": "06:30 AM - 08:00 AM (Morning pooja)",
+        "things_to_avoid": "Entering with footwear, leather accessories, or mobile cameras turned on.",
+        "accessibility": "Entrance ramp provided for wheelchair users."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "1.2 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Devasthanam pooja schedule estimates",
+        "weekday": {
+          "morning": "Medium",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "High",
+          "afternoon": "Low",
+          "evening": "High"
+        },
+        "rush_hours": "07:30 AM - 09:30 AM & 06:30 PM - 08:30 PM (Aarti timings & Fridays)"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "matrimandir-centre",
+      "name": "Matrimandir Visitor Centre & Gardens",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "/static/images/matrimandir_auroville.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/matrimandir_auroville.png",
+      "rating": 4.9,
+      "review_summary": "Architectural wonder featuring the golden meditation sphere, sustainable permaculture exhibits, and shaded walking paths.",
+      "opening_hours": {
+        "open_hour": 9,
+        "close_hour": 17,
+        "display": "09:00 AM - 05:00 PM (Mon-Sat), 09:00 AM - 01:00 PM (Sun)"
+      },
+      "lat": 12.007,
+      "long": 79.8107,
+      "nearby_place_ids": [
+        "serenity-beach"
+      ],
+      "guidelines": {
+        "dress_code": "Modest, comfortable clothing and walking footwear.",
+        "entry_fee": "Free pass issued in-person at the Visitor Centre",
+        "timings": "09:00 - 17:00 (Mon-Sat); 09:00 - 13:00 (Sun)",
+        "photography_rules": "Exterior viewing point photography allowed. Inner meditation chamber requires advance booking and camera deposit.",
+        "best_time_to_visit": "09:15 AM - 11:30 AM before midday sun.",
+        "things_to_avoid": "Visiting without in-person registration or during stormy monsoon winds.",
+        "accessibility": "Shaded walking pathways, battery electric golf carts available for senior citizens and disabled travelers."
+      },
+      "nearest_hospital": {
+        "name": "Auroville Health Centre (Santé Clinique)",
+        "distance": "2.1 km",
+        "phone": "+91 413 2622276"
+      },
+      "crowd_levels": {
+        "source": "Auroville visitor centre pass count estimates",
+        "weekday": {
+          "morning": "Medium",
+          "afternoon": "Low",
+          "evening": "Low"
+        },
+        "weekend": {
+          "morning": "High",
+          "afternoon": "Medium",
+          "evening": "Medium"
+        },
+        "rush_hours": "10:00 AM - 12:30 PM on weekends"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "french-war-memorial",
+      "name": "French War Memorial",
+      "interest": "history",
+      "indoor": false,
+      "image": "/static/images/french_war_memorial.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/french_war_memorial.png",
+      "rating": 4.4,
+      "review_summary": "Solemn and poignant memorial dedicated to French soldiers from Puducherry who died during World War I.",
+      "opening_hours": {
+        "open_hour": 10,
+        "close_hour": 17,
+        "display": "10:00 AM - 05:00 PM (Daily)"
+      },
+      "lat": 11.9332,
+      "long": 79.8354,
+      "nearby_place_ids": [
+        "promenade-beach",
+        "french-quarter",
+        "pondicherry-museum"
+      ],
+      "guidelines": {
+        "dress_code": "Casual decorous clothing.",
+        "entry_fee": "Free",
+        "timings": "10:00 - 17:00 (Open daily)",
+        "photography_rules": "Photography permitted from perimeter promenade.",
+        "best_time_to_visit": "16:30 - 17:30 (Pleasant sea air and soft lighting)",
+        "things_to_avoid": "Climbing monument walls or stepping on solemn memorial floral arrangements.",
+        "accessibility": "Directly accessible from level Promenade pavement."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "0.8 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Promenade visitor flow estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "rush_hours": "05:00 PM - 06:30 PM"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "pondicherry-museum",
+      "name": "Pondicherry Museum & Gallery",
+      "interest": "history",
+      "indoor": true,
+      "image": "/static/images/pondicherry_museum.jpg",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/pondicherry_museum.jpg",
+      "rating": 4.3,
+      "review_summary": "Fascinating collection of Arikamedu Roman excavation antiquities, Chola bronze relics, and French governor carriages.",
+      "opening_hours": {
+        "open_hour": 10,
+        "close_hour": 17,
+        "display": "10:00 AM - 05:00 PM (Closed Mondays & Holidays)"
+      },
+      "lat": 11.9348,
+      "long": 79.8339,
+      "nearby_place_ids": [
+        "french-quarter",
+        "french-war-memorial",
+        "aurobindo-ashram"
+      ],
+      "guidelines": {
+        "dress_code": "Casual clothing.",
+        "entry_fee": "₹10 for Adults, ₹5 for Children, ₹50 for Foreign Nationals (last verified 2026-03-01)",
+        "timings": "10:00 - 17:00 (Closed Mondays)",
+        "photography_rules": "Photography restricted in ancient Roman Arikamedu bead & coin sections.",
+        "best_time_to_visit": "11:00 AM - 01:00 PM (Ideal indoor shelter during noon heat)",
+        "things_to_avoid": "Touching glass displays, carrying food inside galleries.",
+        "accessibility": "Ground floor displays wheelchair accessible; stairs to upper floor."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "0.9 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "State museum ticket entry logs",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Low"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Medium",
+          "evening": "Low"
+        },
+        "rush_hours": "11:30 AM - 01:30 PM on Saturdays"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "serenity-beach",
+      "name": "Serenity Beach & Surf Point",
+      "interest": "nature",
+      "indoor": false,
+      "image": "/static/images/serenity_beach_coast.jpg",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/serenity_beach_coast.jpg",
+      "rating": 4.6,
+      "review_summary": "Golden sands with gentle coastal breakers, traditional wooden catamarans, and eco-certified beginner surf schools.",
+      "opening_hours": {
+        "open_hour": 6,
+        "close_hour": 18,
+        "display": "06:00 AM - 06:30 PM (Daily)"
+      },
+      "lat": 11.9682,
+      "long": 79.8427,
+      "nearby_place_ids": [
+        "matrimandir-centre",
+        "eden-beach"
+      ],
+      "guidelines": {
+        "dress_code": "Swimwear / light beach attire.",
+        "entry_fee": "Free public beach",
+        "timings": "06:00 - 18:30 (Daylight hours recommended)",
+        "photography_rules": "Photography permitted.",
+        "best_time_to_visit": "06:30 AM - 09:30 AM for surf lessons with calm waves.",
+        "things_to_avoid": "Swimming alone past the boulder groin without certified instructors.",
+        "accessibility": "Direct motorable road to beach promenade; soft sand terrain."
+      },
+      "nearest_hospital": {
+        "name": "JIPMER Hospital",
+        "distance": "4.8 km",
+        "phone": "+91 413 2296000"
+      },
+      "crowd_levels": {
+        "source": "Coastal tourism estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Medium",
+          "evening": "High"
+        },
+        "rush_hours": "04:00 PM - 06:30 PM on Sundays"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "eden-beach",
+      "name": "Eden Beach (Blue Flag Certified)",
+      "interest": "nature",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eden_beach.jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Eden_beach.jpg",
+      "rating": 4.8,
+      "review_summary": "Eco-label Blue Flag certified beach with zero plastic waste zones, solar lighting, and clean bathing waters.",
+      "opening_hours": {
+        "open_hour": 6,
+        "close_hour": 18,
+        "display": "06:00 AM - 06:00 PM (Daily)"
+      },
+      "lat": 11.8752,
+      "long": 79.8115,
+      "nearby_place_ids": [
+        "paradise-beach",
+        "promenade-beach"
+      ],
+      "guidelines": {
+        "dress_code": "Beachwear and swimwear.",
+        "entry_fee": "Free entry (Deckchairs & solar shower amenities ₹20 - ₹50)",
+        "timings": "06:00 - 18:00 (Lifeguard on duty during open hours)",
+        "photography_rules": "Allowed. Commercial drone filming requires prior coastal zone permit.",
+        "best_time_to_visit": "07:00 AM - 10:00 AM & 15:30 - 17:30",
+        "things_to_avoid": "Single-use plastics, alcohol, smoking, and glass bottles strictly banned.",
+        "accessibility": "Blue Flag certified wheelchair ramp leading to the water edge with specialized amphibious beach wheelchairs."
+      },
+      "nearest_hospital": {
+        "name": "Mahatma Gandhi Medical College (MGMCRI)",
+        "distance": "6.2 km",
+        "phone": "+91 413 2615449"
+      },
+      "crowd_levels": {
+        "source": "Blue flag beach management board records",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Low",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "Medium",
+          "evening": "High"
+        },
+        "rush_hours": "03:30 PM - 05:45 PM on weekends"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "casablanca-boutique",
+      "name": "Casablanca Heritage Department Store",
+      "interest": "shopping",
+      "indoor": true,
+      "image": "/static/images/Casablanca Heritage Department Store.jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Casablanca Heritage Department Store.jpg",
+      "rating": 4.6,
+      "review_summary": "Iconic multi-level shopping venue in Mission Street featuring handwoven linen, organic leather goods, artisanal home decor, and mini café.",
+      "opening_hours": {
+        "open_hour": 10,
+        "close_hour": 21,
+        "display": "10:00 AM - 09:30 PM (Daily)"
+      },
+      "lat": 11.9328,
+      "long": 79.8288,
+      "nearby_place_ids": [
+        "french-quarter",
+        "manakula-vinayagar"
+      ],
+      "guidelines": {
+        "dress_code": "Casual attire.",
+        "entry_fee": "Free",
+        "timings": "10:00 - 21:30 (Daily)",
+        "photography_rules": "Exterior photo allowed; kindly ask permission for clothing displays.",
+        "best_time_to_visit": "14:00 - 17:00 (Air-conditioned shopping during midday)",
+        "things_to_avoid": "Carrying open food inside boutique floors.",
+        "accessibility": "Elevator accessible to all three floors."
+      },
+      "nearest_hospital": {
+        "name": "Indira Gandhi Government General Hospital",
+        "distance": "1.3 km",
+        "phone": "+91 413 2336050"
+      },
+      "crowd_levels": {
+        "source": "Retail footfall estimates",
+        "weekday": {
+          "morning": "Low",
+          "afternoon": "Medium",
+          "evening": "Medium"
+        },
+        "weekend": {
+          "morning": "Medium",
+          "afternoon": "High",
+          "evening": "High"
+        },
+        "rush_hours": "06:00 PM - 08:30 PM"
+      },
+      "visit_minutes": 60
+    },
+    {
+      "id": "cluny-embroidery",
+      "name": "Cluny Embroidery Centre",
+      "interest": "shopping",
+      "indoor": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/French_quarter_Pondicherry.jpg/800px-French_quarter_Pondicherry.jpg",
+      "image_credit": "Wikimedia Commons (CC BY 3.0)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "18th-century French convent workshop supporting underprivileged local craftswomen.",
+      "opening_hours": {
+        "display": "09:00 AM - 05:00 PM (Closed Sun & Mon)",
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "lat": 11.9352,
+      "long": 79.8335,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual, respectful attire.",
+        "entry_fee": "Free entry",
+        "best_time_to_visit": "10:00 AM - 04:00 PM",
+        "photography": "Prohibited inside the embroidery studio.",
+        "accessibility": "Ground floor access."
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "paradise-beach",
+      "name": "Paradise Beach",
+      "interest": "beach",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paradise_Beach_Pondicherry.jpg/800px-Paradise_Beach_Pondicherry.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Sandy, scenic and relaxed beach reached by ferry boat ride from Chunnambar Boat House.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.8742,
+      "long": 79.8193,
+      "visit_minutes": 90,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "pondy-marina-beach",
+      "name": "Pondy Marina Beach",
+      "interest": "beach",
+      "indoor": false,
+      "image": "/photos/rock_beach.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.4,
+      "review_summary": "Developed waterfront beach with wide sands, evening food stalls, and proximity to the New Lighthouse.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9168,
+      "long": 79.8283,
+      "visit_minutes": 90,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "auroville-beach",
+      "name": "Auroville Beach",
+      "interest": "beach",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Auroville_Beach_sunrise.jpg/800px-Auroville_Beach_sunrise.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.3,
+      "review_summary": "Quiet coastal stretch for peaceful walks, sunrise views, and gentle sea breezes north of town.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9839,
+      "long": 79.8517,
+      "visit_minutes": 90,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "mahatma-gandhi-statue",
+      "name": "Mahatma Gandhi Statue",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/rock_beach.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Four-metre bronze statue framed by eight ornate monolithic granite pillars from Gingee Fort.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9331,
+      "long": 79.8359,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "aayi-mandapam",
+      "name": "Aayi Mandapam (Bharathi Park)",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "White Greco-Roman pavilion in Bharathi Park honoring a generous local woman of 16th-century legend.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9341,
+      "long": 79.8335,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "old-lighthouse",
+      "name": "Old Lighthouse",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.4,
+      "review_summary": "19th-century French colonial maritime tower overlooking Goubert Avenue and the Bay of Bengal.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9318,
+      "long": 79.8357,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "raj-niwas",
+      "name": "Raj Niwas (Governor's Palace)",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Stately 18th-century French neoclassical palace, official residence of the Lieutenant Governor.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9348,
+      "long": 79.8344,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "manakula-vinayagar-temple",
+      "name": "Arulmigu Manakula Vinayagar Temple",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "/photos/manakula_vinayagar_temple.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.8,
+      "review_summary": "Ancient Ganesha temple predating French colonial arrival with ornate golden chariot.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.936,
+      "long": 79.8335,
+      "visit_minutes": 45,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "sacred-heart-basilica",
+      "name": "Basilica of the Sacred Heart of Jesus",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Basilica_of_the_Sacred_Heart_of_Jesus%2C_Puducherry.jpg/800px-Basilica_of_the_Sacred_Heart_of_Jesus%2C_Puducherry.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.8,
+      "review_summary": "Magnificent Gothic Revival basilica featuring 28 rare stained-glass biblical portraits.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9259,
+      "long": 79.8273,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "notre-dame-des-anges",
+      "name": "Église de Notre Dame des Anges",
+      "interest": "spiritual",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.7,
+      "review_summary": "Pastel pink and cream Greco-Roman church with limestone-egg mortar facing the sea.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9312,
+      "long": 79.8351,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "immaculate-conception-cathedral",
+      "name": "Cathedral of Our Lady of the Immaculate Conception",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Historic 300-year-old mother church of the Roman Catholic Archdiocese of Pondicherry.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9353,
+      "long": 79.8296,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "vedapureeswarar-temple",
+      "name": "Vedapureeswarar Temple",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "/photos/manakula_vinayagar_temple.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Historic Shiva temple in Heritage Town with 75-foot Raja Gopuram.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9372,
+      "long": 79.8293,
+      "visit_minutes": 45,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "thirukameswarar-temple-villianur",
+      "name": "Thirukameswarar Temple, Villianur",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "/photos/manakula_vinayagar_temple.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.7,
+      "review_summary": "Ancient 12th-century Chola Shiva temple located in Villianur with sacred spring-fed tank.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9288,
+      "long": 79.7578,
+      "visit_minutes": 45,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "kanniga-parameswari-temple",
+      "name": "Kanniga Parameswari Temple",
+      "interest": "spiritual",
+      "indoor": true,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "Unique temple combining French architraves and ionic pillars with Dravidian sanctum art.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9339,
+      "long": 79.829,
+      "visit_minutes": 45,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "meeran-mosque",
+      "name": "Meeran Mosque",
+      "interest": "spiritual",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "Historic 350-year-old Gothic-Islamic mosque in Heritage Town.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9328,
+      "long": 79.8299,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "kuthba-mosque",
+      "name": "Kuthba Mosque",
+      "interest": "spiritual",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.4,
+      "review_summary": "One of the oldest documented mosques in central Puducherry.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9315,
+      "long": 79.829,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "jamia-mosque",
+      "name": "Jamia Mosque",
+      "interest": "spiritual",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "Prominent central mosque in the Muslim quarter with open prayer courtyard.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9302,
+      "long": 79.8285,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "bharathi-park",
+      "name": "Bharathi Park (Government Park)",
+      "interest": "nature",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Tranquil central green space surrounded by Raj Niwas and the High Court.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9341,
+      "long": 79.8335,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "botanical-garden",
+      "name": "Botanical Garden",
+      "interest": "nature",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Botanical_Garden%2C_Puducherry.jpg/800px-Botanical_Garden%2C_Puducherry.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "22-acre historic French colonial garden founded in 1826 with over 1,500 botanical species.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9304,
+      "long": 79.8214,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "jawahar-toy-museum",
+      "name": "Jawahar Toy Museum",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "/photos/pondicherry_museum.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.1,
+      "review_summary": "Quaint museum near the Old Lighthouse exhibiting traditional dolls and toys from Indian states.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9317,
+      "long": 79.8356,
+      "visit_minutes": 75,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "chunnambar-boat-house",
+      "name": "Chunnambar Boat House",
+      "interest": "nature",
+      "indoor": false,
+      "image": "/photos/serenity_beach_coast.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Popular backwater recreational center and ferry boarding point for Paradise Beach.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.8767,
+      "long": 79.8052,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "ousteri-wetland",
+      "name": "Ousteri Wetland and National Park",
+      "interest": "nature",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ousteri_Lake.jpg/800px-Ousteri_Lake.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "Century-old freshwater wetland and designated bird sanctuary hosting migratory avifauna.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9542,
+      "long": 79.7461,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "arikamedu",
+      "name": "Arikamedu Archaeological Site",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arikamedu_Ruins_Pondicherry.jpg/800px-Arikamedu_Ruins_Pondicherry.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.3,
+      "review_summary": "Ancient Indo-Roman maritime port and archaeological site on the Ariyankuppam River.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9023,
+      "long": 79.8166,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "auroville-visitors-centre",
+      "name": "Auroville Visitors Centre",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/matrimandir_auroville.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.7,
+      "review_summary": "Information hub for Auroville with photo galleries, video screenings, eco-boutiques, and cafes.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 12.0069,
+      "long": 79.8106,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "nehru-statue",
+      "name": "Jawaharlal Nehru Statue",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/rock_beach.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.4,
+      "review_summary": "Seafront statue of India's first Prime Minister facing the Gandhi memorial on Goubert Avenue.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9345,
+      "long": 79.8358,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "dupleix-statue",
+      "name": "Dupleix Statue",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.3,
+      "review_summary": "Historical bronze statue of French Governor Joseph François Dupleix at the southern promenade.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9298,
+      "long": 79.8349,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "romain-rolland-library",
+      "name": "Romain Rolland Library",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "One of the oldest functioning public libraries in India, established in 1827.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9346,
+      "long": 79.8331,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "french-institute-of-pondicherry",
+      "name": "French Institute of Pondicherry (IFP)",
+      "interest": "heritage",
+      "indoor": true,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.5,
+      "review_summary": "Premier Indology and scientific research institute founded in 1955 on Saint Louis Street.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9324,
+      "long": 79.8348,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "alliance-francaise",
+      "name": "Alliance Française de Pondichéry",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.7,
+      "review_summary": "Vibrant French cultural centre on Rue Suffren with art gallery, cinema, and cafe.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9318,
+      "long": 79.8339,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "hotel-de-ville",
+      "name": "Hotel de Ville / Municipal Office",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/white_town_reference.jpg.jpeg",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.4,
+      "review_summary": "Historic 19th-century French civic town hall rebuilt along Goubert Avenue.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9329,
+      "long": 79.8354,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "old-port-harbour",
+      "name": "Old Port / Old Harbour Area",
+      "interest": "heritage",
+      "indoor": false,
+      "image": "/photos/rock_beach.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.3,
+      "review_summary": "Historic 284-metre iron shipping pier remnants from 1862.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 11.9284,
+      "long": 79.8356,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "auroville-farms-green-belt",
+      "name": "Auroville Farms & Green Belt",
+      "interest": "nature",
+      "indoor": false,
+      "image": "/photos/matrimandir_auroville.png",
+      "image_credit": "ExploreMate Team",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.6,
+      "review_summary": "Lush reforestation belt with organic spirulina, dairy, and regenerative permaculture farms.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 12.0125,
+      "long": 79.805,
+      "visit_minutes": 60,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    },
+    {
+      "id": "karaikal-beach",
+      "name": "Karaikal Beach",
+      "interest": "beach",
+      "indoor": false,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Pondicherry_Beach.jpg/800px-Pondicherry_Beach.jpg",
+      "image_credit": "Wikimedia Commons (CC BY-SA)",
+      "image_license": "Verified Public Domain",
+      "image_source_url": "https://exploremate.org",
+      "rating": 4.2,
+      "review_summary": "Wide sandy beach in the Karaikal enclave, roughly 130 km south of central Puducherry.",
+      "opening_hours": {
+        "display": "Open Daily 06:00 AM - 08:00 PM",
+        "is_open_daily": true
+      },
+      "lat": 10.9254,
+      "long": 79.8488,
+      "visit_minutes": 90,
+      "guidelines": {
+        "dress_code": "Casual and modest",
+        "entry_fee": "Free entry",
+        "photography_rules": "Allowed in designated public zones",
+        "best_time_to_visit": "Morning or late afternoon",
+        "accessibility": "Accessible"
+      },
+      "crowd_levels": {
+        "rush_hours": "05:00 PM - 07:30 PM",
+        "peak_season": "Weekends & Holidays"
+      }
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "hotel-1",
+      "name": "Villa Shanti Heritage Hotel",
+      "area": "White Town (French Quarter)",
+      "lat": 11.9318,
+      "lon": 79.8338,
+      "price_per_night": 6500,
+      "currency": "INR",
+      "last_verified": "2026-03-10",
+      "price_status": "Verified",
+      "rating": 4.8,
+      "reviews_count": 342,
+      "address": "14 Rue Suffren, White Town, Puducherry 605001",
+      "phone": "+91 413 4300933",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "24/7 Front Desk Check-in"
+      },
+      "image": "/static/images/villa shanti.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/villa shanti.png",
+      "booking_url": "https://www.booking.com/hotel/in/villa-shanti.html",
+      "booking_portal": "Booking.com / Official Website",
+      "eco_badge": "Solar Hot Water & Zero Single-Use Plastics",
+      "description": "Restored 19th-century French colonial mansion with traditional inner courtyard, sustainable passive cooling architecture, and organic dining."
+    },
+    {
+      "id": "hotel-2",
+      "name": "Maison Perumal - CGH Earth",
+      "area": "Heritage Town (Tamil Quarter)",
+      "lat": 11.936,
+      "lon": 79.827,
+      "price_per_night": 5200,
+      "currency": "INR",
+      "last_verified": "2026-03-12",
+      "price_status": "Verified",
+      "rating": 4.9,
+      "reviews_count": 289,
+      "address": "44 Perumal Koil St, Heritage Town, Puducherry 605001",
+      "phone": "+91 413 2227519",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "24/7 Front Desk Check-in"
+      },
+      "image": "/static/images/Maison Perumal - CGH Earth.jpg",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Maison Perumal - CGH Earth.jpg",
+      "booking_url": "https://www.cghearth.com/maison-perumal",
+      "booking_portal": "CGH Earth Official Portal",
+      "eco_badge": "Heritage Conservation & Green Tourism",
+      "description": "Award-winning Chettinad-style restored residence honoring authentic Tamil crafts, terracotta tiles, and local community sourcing."
+    },
+    {
+      "id": "hotel-3",
+      "name": "Promenade Seafront Boutique Hotel",
+      "area": "Goubert Avenue (Rock Beach)",
+      "lat": 11.933,
+      "lon": 79.8355,
+      "price_per_night": 4800,
+      "currency": "INR",
+      "last_verified": "2026-03-08",
+      "price_status": "Verified",
+      "rating": 4.5,
+      "reviews_count": 410,
+      "address": "23 Goubert Ave, White Town, Puducherry 605001",
+      "phone": "+91 413 2227750",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "24/7 Front Desk Check-in"
+      },
+      "image": "/static/images/Promenade Seafront Boutique Hotel.avif",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:Promenade Seafront Boutique Hotel.avif",
+      "booking_url": "https://www.makemytrip.com/hotels/the_promenade-hotels-pondicherry.html",
+      "booking_portal": "MakeMyTrip / Hidesign Hotels",
+      "eco_badge": "Pedestrian Access & EV Charging Facility",
+      "description": "Overlooking the Bay of Bengal, offering panoramic ocean vistas and zero-emission walking access to all White Town sights."
+    },
+    {
+      "id": "hotel-4",
+      "name": "Auroville Green Guesthouse",
+      "area": "Auroville Universal Township",
+      "lat": 12.0085,
+      "lon": 79.8115,
+      "price_per_night": 2200,
+      "currency": "INR",
+      "last_verified": "2026-03-05",
+      "price_status": "Verified",
+      "rating": 4.6,
+      "reviews_count": 195,
+      "address": "Crown Road, Auroville, Tamil Nadu 605101",
+      "phone": "+91 413 2622154",
+      "opening_hours": {
+        "open_hour": 7,
+        "close_hour": 22,
+        "display": "07:00 AM - 10:00 PM Check-in"
+      },
+      "image": "/static/images/Auroville_Green_guesthouse.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/matrimandir_auroville.png",
+      "booking_url": "https://guestaccommodation.auroville.org/",
+      "booking_portal": "Auroville Guest Accommodation Service",
+      "eco_badge": "100% Solar Powered & Permaculture Living",
+      "description": "Serene and budget-conscious forest retreat built with compressed earth blocks, solar power, and community kitchen."
+    },
+    {
+      "id": "hotel-5",
+      "name": " Village & Beach Resort",
+      "area": "Puducherry Coast (Pudhukuppam)",
+      "lat": 12.035,
+      "lon": 79.855,
+      "price_per_night": 7900,
+      "currency": "INR",
+      "last_verified": "2026-03-11",
+      "price_status": "Verified",
+      "rating": 4.7,
+      "reviews_count": 520,
+      "address": "70/1 Shoreham, Pudhukuppam, Puducherry 605014",
+      "phone": "+91 413 2655751",
+      "opening_hours": {
+        "open_hour": 0,
+        "close_hour": 24,
+        "display": "24/7 Front Desk"
+      },
+      "image": "/static/images/dune eco.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "local:static/images/dune eco.png",
+      "booking_url": "https://www.dunewellnessgroup.com/the-dune-eco-village-and-spa/",
+      "booking_portal": "Dune Wellness Official Website",
+      "eco_badge": "Organic Farm & Composting Sanitization",
+      "description": "35-acre organic farmland sanctuary featuring recycled heritage houses, Ayurvedic wellness, and farm-to-table dining."
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "food-1",
+      "name": "Coromandel Café & Artisanal Kitchen",
+      "cuisine": "French & Continental",
+      "area": "White Town",
+      "lat": 11.9315,
+      "lon": 79.8332,
+      "rating": 4.8,
+      "address": "8 Romain Rolland St, White Town, Puducherry 605001",
+      "phone": "+91 94892 14233",
+      "sample_prices": {
+        "avocado_poached_egg_tartine": 420,
+        "wild_mushroom_risotto": 550,
+        "artisanal_cold_brew": 210,
+        "currency": "INR",
+        "last_verified": "2026-03-12"
+      },
+      "opening_hours": {
+        "open_hour": 8,
+        "close_hour": 22,
+        "display": "08:30 AM - 10:30 PM (Daily)"
+      },
+      "image": "/static/images/coromandel_cafe.png",
+      "image_credit": "ExploreMate Verified Collection",
+      "image_license": "ExploreMate Verified",
+      "image_source_url": "C:\\Users\\K.Asvitha\\Desktop\\ExploreMate\\static\\images",
+      "booking_url": "https://www.google.com/maps/place/Coromandel+Cafe",
+      "booking_portal": "Google Maps / Table Reservation",
+      "description": "Exquisite European & French cuisine served in an art-filled 19th-century French mansion with an organic produce focus.",
+      "eco_practice": "Direct farm-sourced heirloom vegetables and zero plastic packaging."
+    },
+    {
+      "id": "food-2",
+      "name": "Café des Arts",
+      "cuisine": "French Bakery & Crêperie",
+      "area": "Rue Suffren, White Town",
+      "lat": 11.9322,
+      "lon": 79.8338,
+      "rating": 4.6,
+      "address": "10 Suffren St, White Town, Puducherry 605001",
+      "phone": "+91 99944 81914",
+      "sample_prices": {
+        "breton_buckwheat_galette": 320,
+        "nutella_banana_crepe": 240,
+        "fresh_mint_lemonade": 130,
+        "currency": "INR",
+        "last_verified": "2026-03-10"
+      },
+      "opening_hours": {
+        "open_hour": 9,
+        "close_hour": 19,
+        "display": "09:00 AM - 07:00 PM (Closed Tuesdays)"
+      },
+      "image": "/static/images/cafe des arts.png",
+      "image_credit": "ExploreMate Pondicherry Verified Photo",
+      "image_license": "ExploreMate Verified Collection",
+      "image_source_url": "local:static/images/cafe des arts.png",
+      "booking_url": "https://www.google.com/maps/place/Caf%C3%A9+des+Arts",
+      "booking_portal": "Google Maps Details",
+      "description": "Bohemian colonial café with vintage posters and hibiscus gardens serving wholesome French crêpes, baguettes, and organic coffees.",
+      "eco_practice": "Fair-trade shade-grown coffee and upcycled colonial furniture."
+    },
+    {
+      "id": "food-3",
+      "name": "Surguru Spot",
+      "cuisine": "South Indian Vegetarian",
+      "area": "Heritage Town",
+      "lat": 11.9348,
+      "lon": 79.829,
+      "rating": 4.7,
+      "address": "Mission St, Heritage Town, Puducherry 605001",
+      "phone": "+91 413 2227290",
+      "sample_prices": {
+        "ghee_roast_masala_dosa": 110,
+        "steamed_idli_vada_combo": 85,
+        "traditional_filter_coffee": 40,
+        "currency": "INR",
+        "last_verified": "2026-03-14"
+      },
+      "opening_hours": {
+        "open_hour": 7,
+        "close_hour": 22,
+        "display": "07:00 AM - 10:30 PM (Daily)"
+      },
+      "image": "/static/images/surguru_spot.png",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 4.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:surguru_spot.png",
+      "booking_url": "https://www.google.com/maps/place/Hotel+Surguru",
+      "booking_portal": "Google Maps / Direct Dine-in",
+      "description": "Legendary South Indian vegetarian dining offering authentic crispy ghee roast dosas, idlis, and traditional filter kaapi.",
+      "eco_practice": "Traditional banana leaf dining and 100% plant-based local ingredients."
+    },
+    {
+      "id": "food-4",
+      "name": "Tanto Pizzeria (Auroville)",
+      "cuisine": "Italian & Wood-Fired",
+      "area": "Auroville Main Road",
+      "lat": 12.009,
+      "lon": 79.821,
+      "rating": 4.7,
+      "address": "Kuilapalayam, Main Road, Auroville, Tamil Nadu 605101",
+      "phone": "+91 413 2622368",
+      "sample_prices": {
+        "margherita_woodfired_pizza": 390,
+        "homemade_pesto_pasta": 360,
+        "farm_salad_with_feta": 280,
+        "currency": "INR",
+        "last_verified": "2026-03-08"
+      },
+      "opening_hours": {
+        "open_hour": 12,
+        "close_hour": 21,
+        "display": "12:00 PM - 03:00 PM & 06:00 PM - 09:30 PM"
+      },
+      "image": "/static/images/tanto_pizzeria.png",
+      "image_credit": "Wikimedia Commons",
+      "image_license": "CC BY-SA 3.0",
+      "image_source_url": "https://commons.wikimedia.org/wiki/File:tanto_pizerria.png",
+      "booking_url": "https://www.google.com/maps/place/Tanto+Pizzeria",
+      "booking_portal": "Google Maps Table Booking",
+      "description": "Wood-fired artisanal pizzas baked using stone ovens, handmade mozzarella, and fresh organic herbs picked straight from Auroville farms.",
+      "eco_practice": "Solar-supplemented ovens and 100% compostable bio-waste stream."
+    }
+  ],
+  "safety_numbers": {
+    "police": "100",
+    "ambulance": "108",
+    "fire": "101",
+    "women_helpline": "1091",
+    "tourist_helpline": "1363",
+    "unified_emergency": "112",
+    "puducherry_tourism": "+91 413 2234500",
+    "highway_patrol": "1033",
+    "status_badge": "verify before use"
+  }
+}

@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExploreMate · Adaptive Eco-Travel Guide & Pondicherry Explorer</title>
+  
+  <!-- Meta Tags for SEO & Accessibility -->
+  <meta name="description" content="ExploreMate is an adaptive, eco-friendly travel guide featuring real-time weather pivots, verified Pondicherry heritage data, DEFRA carbon footprint routing, and AI trip assistance.">
+  <meta name="keywords" content="ExploreMate, Pondicherry, Puducherry, eco-travel, green tourism, sustainable travel, White Town, Promenade Beach, carbon footprint">
+  <meta name="author" content="ExploreMate Team">
+
+  <!-- Favicon using User Logo -->
+  <link rel="icon" type="image/png" href="/assets/logo.png">
+
+  <!-- Anti-Flicker Theme Detection Script (Applies before first paint) -->
+  <script>
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('exploremate_theme');
+        if (!savedTheme) {
+          savedTheme = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Leaflet Map CSS (Free OpenStreetMap) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- ExploreMate Custom Stylesheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Sticky Header & Navbar -->
+  <header class="app-header">
+    <div class="header-container">
+      <!-- Logo in Navbar with proper alt text -->
+      <a href="#" class="brand-link" id="brandHomeLink" title="ExploreMate Home">
+        <img src="/assets/logo.png" alt="ExploreMate Logo" class="brand-logo-img">
+      </a>
+
+      <!-- Search Bar -->
+      <div class="header-search">
+        <form id="searchForm" class="search-input-wrapper" role="search">
+          <i class="fa-solid fa-magnifying-glass search-icon" aria-hidden="true"></i>
+          <input 
+            type="text" 
+            id="citySearchInput" 
+            class="search-input" 
+            placeholder="Search destination (e.g. Pondicherry, Puducherry)..." 
+            value="Pondicherry"
+            aria-label="Search destination"
+            autocomplete="off"
+          >
+          <button type="submit" class="search-submit-btn" aria-label="Search destination" title="Search destination">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- Header Actions: Theme Toggle, Rain Simulation, CO2 Counter -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button (Task 3 / 11) -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle dark or light theme" title="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon" aria-hidden="true"></i>
+        </button>
+
+        <!-- Simulate Rain Demo Toggle -->
+        <button id="simulateRainToggle" class="rain-toggle-btn" title="Simulate rain weather pivot">
+          <i class="fa-solid fa-cloud-showers-heavy" aria-hidden="true"></i>
+          <span id="rainToggleText">Simulate Rain</span>
+        </button>
+
+        <!-- Running CO2 Saved Counter Pill -->
+        <div class="co2-counter-pill" title="Running carbon emissions saved in ExploreMate">
+          <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+          <span>CO2 Saved: <strong id="globalCo2SavedDisplay">0.00</strong> kg</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Tab Bar -->
+  <nav class="nav-tabbar" aria-label="Main Navigation">
+    <div class="nav-container">
+      <button class="tab-btn active" data-tab="placesTab">
+        <i class="fa-solid fa-compass" aria-hidden="true"></i> Places
+      </button>
+      <button class="tab-btn" data-tab="itineraryTab" id="navItineraryBtn">
+        <i class="fa-solid fa-calendar-day" aria-hidden="true"></i> Smart Itinerary
+      </button>
+      <button class="tab-btn" data-tab="mapTab" id="navMapBtn">
+        <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Map & Transit
+      </button>
+      <button class="tab-btn" data-tab="stayTab" id="navStayBtn">
+        <i class="fa-solid fa-hotel" aria-hidden="true"></i> Stays
+      </button>
+      <button class="tab-btn" data-tab="foodTab" id="navFoodBtn">
+        <i class="fa-solid fa-utensils" aria-hidden="true"></i> Food
+      </button>
+      <button class="tab-btn" data-tab="carbonTab">
+        <i class="fa-solid fa-leaf" aria-hidden="true"></i> Carbon Route
+      </button>
+      <button class="tab-btn" data-tab="safetyTab">
+        <i class="fa-solid fa-shield-heart" aria-hidden="true"></i> "Before You Go"
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="main-content">
+
+    <!-- Rain Alert Pivot Banner -->
+    <div id="pivotAlertBanner" class="pivot-banner hidden" role="alert">
+      <div class="pivot-banner-left">
+        <i class="fa-solid fa-cloud-showers-heavy text-teal" id="pivotBannerIcon" aria-hidden="true"></i>
+        <div>
+          <strong id="pivotBannerTitle">Weather Adaptation Active</strong>
+          <p id="pivotBannerText" style="font-size: 0.88rem; opacity: 0.95;"></p>
+        </div>
+      </div>
+      <button class="see-more-btn" id="pivotQuickActionBtn" style="padding: 0.35rem 0.9rem; font-size: 0.8rem;">
+        View Indoor Plan
+      </button>
+    </div>
+
+    <!-- UNSUPPORTED CITY CENTERED CARD (Task 2) -->
+    <!-- Shown when searching any city other than Pondicherry/Puducherry -->
+    <div id="unsupportedCityCard" class="unsupported-city-card hidden">
+      <div class="unsupported-icon">
+        <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+      </div>
+      <h2 style="font-size: 1.4rem; margin-bottom: 0.75rem;">Destination Expanding Soon</h2>
+      <p id="unsupportedCityMessage" style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.5rem;">
+        <!-- Filled dynamically -->
+      </p>
+      <button class="see-more-btn" id="returnPondyBtn" style="padding: 0.65rem 1.4rem; font-size: 0.9rem;">
+        <i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Explore Pondicherry Guide
+      </button>
+    </div>
+
+    <!-- Destination Hero (Pondicherry Active) -->
+    <section class="destination-hero" id="destinationHero">
+      <div class="hero-info">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.3rem;">
+          <h1 id="heroCityName">Pondicherry</h1>
+          <span class="badge badge-indoor" id="heroGuideStatus">Verified Destination</span>
+        </div>
+        <p class="hero-tagline" id="heroTagline">The French Riviera of the East · Eco-Heritage Coastal Haven</p>
+      </div>
+
+      <div class="weather-chip-pill" id="heroWeatherSummary">
+        <i class="fa-solid fa-sun fa-2x text-teal" id="heroWeatherIcon" aria-hidden="true"></i>
+        <div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);" id="heroWeatherCondition">Live Forecast</div>
+          <div class="weather-temp" id="heroWeatherTemp">31.3°C</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- TAB 1: PLACES (HOME)                           -->
+    <!-- ============================================== -->
+    <div id="placesTab" class="tab-page">
+      
+      <!-- Interest Chips Filter Row -->
+      <div class="filter-row">
+        <button class="chip-btn active" data-interest="all">
+          <i class="fa-solid fa-layer-group" aria-hidden="true"></i> All Sights
+        </button>
+        <button class="chip-btn" data-interest="heritage">
+          <i class="fa-solid fa-om" aria-hidden="true"></i> Heritage (Ashram & Sacred)
+        </button>
+        <button class="chip-btn" data-interest="nature">
+          <i class="fa-solid fa-water" aria-hidden="true"></i> Nature (Beaches)
+        </button>
+        <button class="chip-btn" data-interest="history">
+          <i class="fa-solid fa-landmark" aria-hidden="true"></i> History (French Streets)
+        </button>
+        <button class="chip-btn" data-interest="shopping">
+          <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i> Shopping & Crafts
+        </button>
+      </div>
+
+      <!-- Split 1: Outdoor Places -->
+      <section class="places-group-container" id="outdoorSection">
+        <div class="section-header">
+          <h2 class="section-title">
+            <i class="fa-solid fa-sun text-emerald" aria-hidden="true"></i> Outdoor Sights
+            <span class="section-badge" id="outdoorCountBadge">0 Places</span>
+          </h2>
+          <span style="font-size: 0.8rem; color: var(--text-dim);">Open-air promenades & coastal spots</span>
+        </div>
+
+        <div class="cards-grid" id="outdoorGrid"></div>
+
+        <div class="see-more-wrapper hidden" id="outdoorSeeMoreWrapper">
+          <button class="see-more-btn" id="outdoorSeeMoreBtn">
+            <span>See more outdoor places</span> <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Split 2: Indoor Places -->
+      <section class="places-group-container" id="indoorSection">
+        <div class="section-header">
+          <h2 class="section-title">
+            <i class="fa-solid fa-house-chimney text-teal" aria-hidden="true"></i> Indoor Sights
+            <span class="section-badge" id="indoorCountBadge">0 Places</span>
+          </h2>
+          <span style="font-size: 0.8rem; color: var(--text-dim);">Sheltered sanctums, museums & boutiques</span>
+        </div>
+
+        <div class="cards-grid" id="indoorGrid"></div>
+
+        <div class="see-more-wrapper hidden" id="indoorSeeMoreWrapper">
+          <button class="see-more-btn" id="indoorSeeMoreBtn">
+            <span>See more indoor places</span> <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 2: SMART ITINERARY & CROWD TIMES (Task 9)  -->
+    <!-- ============================================== -->
+    <div id="itineraryTab" class="tab-page hidden">
+      <div class="itinerary-solid-box">
+        <div class="section-header" style="flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <h2 class="section-title"><i class="fa-solid fa-route text-teal" aria-hidden="true"></i> Smart Itinerary Builder</h2>
+            <p style="color: var(--text-muted); font-size: 0.88rem;">
+              Crowd-aware schedule: automatically avoids rush hours, groups nearby spots, and syncs open restaurants.
+            </p>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <button id="toggleRainItineraryBtn" class="rain-toggle-btn">
+              <i class="fa-solid fa-cloud-showers-heavy" aria-hidden="true"></i> <span>Toggle Rain Pivot</span>
+            </button>
+            <button class="see-more-btn" id="saveItineraryBtn" title="Save plan to local storage">
+              <i class="fa-solid fa-floppy-disk" aria-hidden="true"></i> Save Plan
+            </button>
+            <button class="see-more-btn" id="printItineraryBtn" title="Print itinerary">
+              <i class="fa-solid fa-print" aria-hidden="true"></i> Print
+            </button>
+            <button class="see-more-btn" id="shareItineraryBtn" title="Share itinerary">
+              <i class="fa-solid fa-share-nodes" aria-hidden="true"></i> Share
+            </button>
+          </div>
+        </div>
+
+        <!-- Vertical Timeline Display with Crowd Badges & Food Slots -->
+        <div class="timeline-container" id="itineraryTimelineList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 3: LEAFLET MAP & TRANSIT (Task 7)          -->
+    <!-- ============================================== -->
+    <div id="mapTab" class="tab-page hidden">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-map-location-dot text-emerald" aria-hidden="true"></i> Interactive Pondicherry Map</h2>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            OpenStreetMap markers for all attractions, Puducherry Railway Station (PDY), and Main Bus Stands.
+          </p>
+        </div>
+        <button class="see-more-btn" id="locateMeBtn">
+          <i class="fa-solid fa-crosshairs" aria-hidden="true"></i> Locate Me (GPS)
+        </button>
+      </div>
+
+      <!-- Leaflet Map Element -->
+      <div id="mapView"></div>
+
+      <!-- Nearest Transit Hubs Summary -->
+      <div style="margin-top: 1.5rem;">
+        <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;"><i class="fa-solid fa-train text-teal" aria-hidden="true"></i> Nearby Railway Stations & Bus Stands</h3>
+        <div class="transit-hubs-grid" id="transitHubsGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 4: STAY (ACCOMMODATIONS) (Task 5, 6)       -->
+    <!-- ============================================== -->
+    <div id="stayTab" class="tab-page hidden">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-hotel text-emerald" aria-hidden="true"></i> Verified Eco-Stays</h2>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Real photos, verified pricing per night in ₹, and official booking links.
+          </p>
+        </div>
+        
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <label for="staySortSelect" style="font-size: 0.82rem; color: var(--text-muted);">Sort:</label>
+          <select id="staySortSelect" class="form-select" style="width: auto; padding: 0.4rem 0.8rem;">
+            <option value="price_asc">Price: Low to High</option>
+            <option value="price_desc">Price: High to Low</option>
+            <option value="rating">Top Rated</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="stayCardsGrid" style="margin-top: 1.25rem;"></div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 5: FOOD (MUST-TRY DINING) (Task 5, 6)      -->
+    <!-- ============================================== -->
+    <div id="foodTab" class="tab-page hidden">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-utensils text-teal" aria-hidden="true"></i> Authentic Dining</h2>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Farm-to-table Franco-Tamil eateries, real prices in ₹, opening hours, and direct booking links.
+          </p>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="foodCardsGrid" style="margin-top: 1.25rem;"></div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 6: CARBON FOOTPRINT CALCULATOR (Phase 4)   -->
+    <!-- ============================================== -->
+    <div id="carbonTab" class="tab-page hidden">
+      <div class="carbon-calc-card">
+        <div style="margin-bottom: 1.5rem;">
+          <h2 class="section-title"><i class="fa-solid fa-leaf text-emerald" aria-hidden="true"></i> Carbon Route Comparison</h2>
+          <p style="color: var(--text-muted); font-size: 0.88rem;">
+            Select any two destinations in Pondicherry to evaluate estimated CO2 emissions across 5 travel modes.
+          </p>
+        </div>
+
+        <div class="calc-selectors-grid">
+          <div class="form-group">
+            <label for="carbonFromSelect"><i class="fa-solid fa-location-dot text-teal" aria-hidden="true"></i> Starting Point</label>
+            <select id="carbonFromSelect" class="form-select"></select>
+          </div>
+          <div class="form-group">
+            <label for="carbonToSelect"><i class="fa-solid fa-flag-checkered text-emerald" aria-hidden="true"></i> Destination</label>
+            <select id="carbonToSelect" class="form-select"></select>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+          <div style="font-size: 0.9rem; color: var(--text-muted);">
+            Route Distance: <strong id="calcDistanceDisplay" style="color: var(--text-main);">0.0 km</strong>
+          </div>
+          <div style="font-size: 0.82rem; color: #f87171;">
+            Baseline Petrol Car Emission: <strong id="calcBaselineCarDisplay">0.000 kg CO2</strong>
+          </div>
+        </div>
+
+        <div class="modes-comparison-grid" id="carbonModesGrid"></div>
+
+        <!-- Restaurants Near Selected Route (Task 5) -->
+        <div id="routeRestaurantsBox" style="margin-top: 1.75rem; padding: 1.25rem; background: var(--bg-card-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+          <h3 style="font-size: 1.1rem; margin-bottom: 0.4rem; color: var(--teal-accent);">
+            <i class="fa-solid fa-utensils" aria-hidden="true"></i> Suggested Dining Along This Route
+          </h3>
+          <p style="font-size: 0.82rem; color: var(--text-dim); margin-bottom: 1rem;">Restaurants located in proximity to both selected points.</p>
+          <div class="cards-grid" id="routeRestaurantsGrid"></div>
+        </div>
+
+        <!-- DEFRA Citation Box -->
+        <div class="defra-citation-box" style="margin-top: 1.5rem; padding: 0.85rem; border: 1px dashed var(--border-subtle); border-radius: var(--radius-sm); font-size: 0.8rem; color: var(--text-dim); display: flex; align-items: center; gap: 0.5rem;">
+          <i class="fa-solid fa-certificate text-teal" aria-hidden="true"></i>
+          <div>
+            <strong>Estimates Source:</strong> 
+            <span id="defraCitationText">UK Department for Environment, Food & Rural Affairs (DEFRA) GHG Conversion Factors (2023). Indicative estimates per passenger-km.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================== -->
+    <!-- TAB 7: "BEFORE YOU GO" & SAFETY (Task 8)       -->
+    <!-- ============================================== -->
+    <div id="safetyTab" class="tab-page hidden">
+      
+      <!-- Official Emergency Helplines -->
+      <section style="margin-bottom: 2.5rem;">
+        <div class="section-header">
+          <h2 class="section-title"><i class="fa-solid fa-phone-volume text-rose-400" aria-hidden="true"></i> Verified Emergency Helplines</h2>
+          <span class="badge badge-warning">official sources</span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Verified emergency contacts for Puducherry Union Territory: Police, Ambulance, Fire, Women, and Tourist support.
+        </p>
+
+        <div class="cards-grid" id="helplinesGrid"></div>
+      </section>
+
+      <!-- Nearby Hospitals -->
+      <section style="margin-bottom: 2.5rem;">
+        <div class="section-header">
+          <h2 class="section-title"><i class="fa-solid fa-hospital text-teal" aria-hidden="true"></i> Hospitals Near Key Attractions</h2>
+          <span class="badge badge-warning">verify before use</span>
+        </div>
+
+        <div class="cards-grid" id="hospitalsGrid"></div>
+      </section>
+
+      <!-- Place Specific Guidelines: Dress Code, Timings, Rules, Accessibility -->
+      <section style="margin-bottom: 2.5rem;">
+        <div class="section-header">
+          <h2 class="section-title"><i class="fa-solid fa-book-open text-emerald" aria-hidden="true"></i> Destination Guidelines & Cultural Etiquette</h2>
+        </div>
+
+        <div class="cards-grid" id="placeGuidelinesGrid"></div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <!-- ============================================== -->
+  <!-- CENTERED INTERACTIVE MODAL (Task 3)            -->
+  <!-- ============================================== -->
+  <div class="modal-overlay" id="placeModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalPlaceName">
+    <div class="modal-dialog" id="placeModalDialog">
+      <div class="modal-header">
+        <img id="modalPlaceImg" src="" alt="Place image" class="modal-hero-img">
+        <div class="image-credit-tag" id="modalImageCreditTag"></div>
+        <button class="modal-close-btn" id="closePlaceModalBtn" aria-label="Close dialog" title="Close (Esc)">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <div class="modal-content-body">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <h2 id="modalPlaceName" style="font-size: 1.35rem;"></h2>
+          <span id="modalPlaceOpenBadge" class="badge"></span>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem; flex-wrap: wrap;">
+          <div class="rating-badge" id="modalPlaceRating">
+            <i class="fa-solid fa-star" aria-hidden="true"></i> <span>4.8</span>
+          </div>
+          <span style="font-size: 0.82rem; color: var(--text-dim);" id="modalPlaceHours"></span>
+          <span class="badge badge-indoor" id="modalCrowdBadge"></span>
+        </div>
+
+        <p id="modalPlaceReviewSummary" class="card-text" style="font-size: 0.92rem;"></p>
+
+        <!-- Place Guidelines Box (Dress code, photography, fee) -->
+        <div class="modal-section-box" id="modalGuidelinesBox"></div>
+
+        <!-- Nearby Places -->
+        <div class="modal-section-box">
+          <h4 style="font-size: 0.92rem; margin-bottom: 0.4rem; color: var(--teal-accent);">
+            <i class="fa-solid fa-signs-post" aria-hidden="true"></i> Nearby Attractions
+          </h4>
+          <div class="chips-pills-list" id="modalNearbyList" style="display: flex; flex-wrap: wrap; gap: 0.5rem;"></div>
+        </div>
+
+        <!-- Nearby Restaurants & Stays with distance -->
+        <div class="modal-section-box">
+          <h4 style="font-size: 0.92rem; margin-bottom: 0.4rem; color: var(--emerald-accent);">
+            <i class="fa-solid fa-utensils" aria-hidden="true"></i> Nearby Dining & Stays
+          </h4>
+          <div id="modalNearbyServicesList" style="font-size: 0.85rem; color: var(--text-muted); display: flex; flex-direction: column; gap: 0.5rem;"></div>
+        </div>
+
+        <!-- REVIEWS & STAR RATING SYSTEM (Task 5 / 13) -->
+        <div class="reviews-section-box" id="reviewsContainerBox">
+          <div class="rating-analytics-header">
+            <div>
+              <h3 style="font-size: 1.15rem; margin-bottom: 0.2rem;"><i class="fa-solid fa-star text-amber-400" aria-hidden="true"></i> Traveler Reviews</h3>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">
+                Bayesian Score: <span class="bayesian-pill" id="modalBayesianScore">4.80</span>
+                · Positive Confidence: <span class="wilson-score-pill" id="modalWilsonScore">92%</span>
+              </div>
+            </div>
+            <div style="text-align: right;">
+              <span style="font-size: 1.4rem; font-weight: 800; color: var(--text-main);" id="modalReviewAverage">4.8</span>
+              <span style="font-size: 0.8rem; color: var(--text-dim);"> / 5.0 (<span id="modalReviewCount">0</span> reviews)</span>
+            </div>
+          </div>
+
+          <!-- Rating Distribution 5-to-1 Star -->
+          <div id="modalRatingDistribution" style="margin-bottom: 1.25rem;"></div>
+
+          <!-- Review Submission Form -->
+          <form id="submitReviewForm" style="background: var(--bg-card); padding: 1rem; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); margin-bottom: 1.25rem;">
+            <h4 style="font-size: 0.95rem; margin-bottom: 0.75rem;">Leave Your Review</h4>
+            
+            <!-- Star Input with Hover Effect -->
+            <div style="margin-bottom: 0.75rem;">
+              <label style="display: block; font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.3rem;">Rating (1 to 5 stars):</label>
+              <div class="star-rating-input" id="starRatingInputGroup">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5" title="5 stars">★</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 stars">★</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 stars">★</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 stars">★</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 star">★</label>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem;">
+              <input type="text" id="reviewAuthorName" class="form-input" placeholder="Your Name" required>
+              <input type="email" id="reviewAuthorEmail" class="form-input" placeholder="Your Email" required>
+            </div>
+
+            <div style="margin-bottom: 0.75rem;">
+              <textarea id="reviewCommentText" class="form-textarea" rows="3" placeholder="Share your experience (max 500 characters)..." maxlength="500" required></textarea>
+              <div style="text-align: right; font-size: 0.75rem; color: var(--text-dim);" id="reviewCharCount">0 / 500</div>
+            </div>
+
+            <button type="submit" class="choose-mode-btn" style="background: var(--emerald-accent); color: #fff; margin-top: 0;">Submit Verified Review</button>
+          </form>
+
+          <!-- Existing Reviews List -->
+          <div id="modalReviewsList"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- FLOATING GEMINI CHATBOT (Task 10)              -->
+  <!-- ============================================== -->
+  <button class="chatbot-trigger-btn" id="chatbotTriggerBtn" aria-label="Open ExploreMate AI Travel Assistant" title="Ask ExploreMate AI Assistant">
+    <i class="fa-solid fa-comments" aria-hidden="true"></i>
+  </button>
+
+  <div class="chatbot-panel" id="chatbotPanel" role="complementary" aria-label="Chatbot Assistant">
+    <div class="chatbot-header">
+      <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 700; font-size: 0.95rem;">
+        <i class="fa-solid fa-leaf text-emerald" aria-hidden="true"></i>
+        <span>ExploreMate AI Assistant</span>
+      </div>
+      <button class="modal-close-btn" id="closeChatbotBtn" style="position: static; width: 28px; height: 28px; font-size: 0.8rem;" aria-label="Close Chat">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-bubble assistant">
+        👋 Welcome to ExploreMate! I am your Puducherry trip assistant. Ask me about verified opening hours, dress codes, crowd peaks, restaurant recommendations, or ask me to modify your itinerary!
+      </div>
+    </div>
+
+    <form class="chatbot-footer" id="chatForm">
+      <input 
+        type="text" 
+        id="chatInput" 
+        class="chat-input" 
+        placeholder="Ask about places, food, crowds..." 
+        autocomplete="off"
+        aria-label="Type message"
+      >
+      <button type="submit" class="search-submit-btn" style="position: static; width: 34px; height: 34px;" aria-label="Send message">
+        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- FOOTER (Customer Service + About) (Task 4 / 12)-->
+  <!-- ============================================== -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <!-- Col 1: About ExploreMate -->
+      <div class="footer-col">
+        <h4>About ExploreMate</h4>
+        <p>
+          ExploreMate is an adaptive, eco-friendly travel guide designed for mindful travelers. 
+          Featuring real-time meteorological pivots, verified Puducherry heritage data, 
+          DEFRA-benchmarked zero-carbon walking routes, and authentic Franco-Tamil cultural preservation.
+        </p>
+      </div>
+
+      <!-- Col 2: Customer Service -->
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul class="footer-contact-list">
+          <li><i class="fa-solid fa-user-tie text-teal" aria-hidden="true"></i> Contact Name: <strong>ExploreMate Team</strong></li>
+          <li><i class="fa-solid fa-phone text-emerald" aria-hidden="true"></i> Phone: <strong>998854126</strong></li>
+          <li><i class="fa-solid fa-envelope text-teal" aria-hidden="true"></i> Email: <strong>exploremateservices@gmail.com</strong></li>
+          <li><i class="fa-regular fa-clock text-emerald" aria-hidden="true"></i> Support Hours: Mon – Sat: 9:00 AM – 7:00 PM IST</li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Quick Links & Social -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-quick-links">
+          <li><a href="#" id="footerLinkHome">Home</a></li>
+          <li><a href="#" id="footerLinkAbout">About ExploreMate</a></li>
+          <li><a href="#" id="footerLinkPrivacy">Privacy Policy</a></li>
+          <li><a href="#" id="footerLinkTerms">Terms of Service</a></li>
+        </ul>
+        <div class="footer-social-icons">
+          <a href="#" class="footer-social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" class="footer-social-btn" aria-label="Twitter X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="#" class="footer-social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#" class="footer-social-btn" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="footer-bottom-bar">
+      © 2026 ExploreMate · ZÉPHYR Hackathon Edition · Built with Care for Sustainable Tourism.
+    </div>
+  </footer>
+
+  <!-- Core JavaScript -->
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

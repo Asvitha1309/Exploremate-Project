@@ -1,0 +1,77 @@
+{
+  "destination": "Pondicherry",
+  "disclaimer": "Sample entries provided for travel reference. Please verify before use with local authorities or operator directories.",
+  "status_badge": "verify before use",
+  "helpline_numbers": [
+    {
+      "service": "National Emergency Number",
+      "number": "112",
+      "note": "Unified toll-free emergency response across India (Police, Fire, Ambulance)",
+      "badge": "verify before use"
+    },
+    {
+      "service": "Police Control Room",
+      "number": "100",
+      "note": "Pondicherry Union Territory Police HQ Dispatch",
+      "badge": "verify before use"
+    },
+    {
+      "service": "Ambulance / Medical Emergency",
+      "number": "108",
+      "note": "Emergency medical response and transport service",
+      "badge": "verify before use"
+    },
+    {
+      "service": "Fire & Rescue Services",
+      "number": "101",
+      "note": "Fire disaster management",
+      "badge": "verify before use"
+    },
+    {
+      "service": "National Highway Patrol Helpline",
+      "number": "1033",
+      "note": "NHAI 24/7 Road emergency and towing support for ECR / NH32",
+      "badge": "verify before use"
+    },
+    {
+      "service": "Tourist Police & Assistance Desk",
+      "number": "+91 413 2234500",
+      "note": "Puducherry Tourism facilitation & safety unit (verify before use)",
+      "badge": "verify before use"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "JIPMER (Jawaharlal Institute of Postgraduate Medical Education & Research)",
+      "phone": "+91 413 2296000",
+      "distance": "5.2 km from Promenade Beach",
+      "address": "Dhanvantari Nagar, Gorimedu, Puducherry 605006",
+      "emergency_available": true,
+      "badge": "verify before use"
+    },
+    {
+      "name": "Indira Gandhi Government General Hospital & Post Graduate Institute (IGGGH&PGI)",
+      "phone": "+91 413 2336050",
+      "distance": "1.1 km from White Town",
+      "address": "Victor Simonel St, White Town, Puducherry 605001",
+      "emergency_available": true,
+      "badge": "verify before use"
+    },
+    {
+      "name": "Mahatma Gandhi Medical College & Research Institute (MGMCRI)",
+      "phone": "+91 413 2615449",
+      "distance": "13.8 km from City Center (Pillaiyarkuppam)",
+      "address": "Pondy-Cuddalore Main Road, Puducherry 607402",
+      "emergency_available": true,
+      "badge": "verify before use"
+    },
+    {
+      "name": "Auroville Health Centre (Santé Clinique)",
+      "phone": "+91 413 2622276",
+      "distance": "9.4 km from White Town",
+      "address": "Crown Road, Auroville, Tamil Nadu 605101",
+      "emergency_available": false,
+      "badge": "verify before use"
+    }
+  ]
+}

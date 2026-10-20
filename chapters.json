@@ -1,0 +1,192 @@
+[
+  {
+    "id": "chap-1",
+    "title": "The Letter from Rue Dumas",
+    "storyteller_name": "Local Storyteller 1",
+    "storyteller_bio": "Heritage preservationist and resident of the French Quarter.",
+    "summary": "An ancient sealed letter in a Rue Dumas brass mailbox hints at a forgotten maritime ledger from Governor Dupleix's era.",
+    "text_en": "The sea breeze carried the faint scent of bougainvillea as you arrived at the yellow colonial mansion on Rue Dumas. Under the terracotta archway, an old brass letterbox held a faded parchment addressed to Governor Dupleix's clerk. The seal was cracked, whispering of a hidden maritime ledger buried along Goubert Avenue before the monsoon tides arrive...",
+    "text_ta": "டூமாஸ் தெருவில் உள்ள மஞ்சள் மாளிகையை நீங்கள் அடைந்தபோது, கடல் காற்று போகன்வில்லா பூக்களின் நறுமணத்தை ஏந்தி வந்தது. சுடுமண் வளைவின் கீழ் இருந்த பித்தளை அஞ்சல் பெட்டியில் ஒரு பழைய கடிதம் இருந்தது...",
+    "audio_file": "",
+    "location": {
+      "name": "Rue Dumas French Mansion",
+      "lat": 11.9325,
+      "lng": 79.834,
+      "radius_m": 75
+    },
+    "ink_cost_kg": 0.0,
+    "cliffhanger_line": "The map fragment pointed straight towards the vintage Old Lighthouse tower...",
+    "estimated_read_minutes": 3
+  },
+  {
+    "id": "chap-2",
+    "title": "The Keeper of Goubert Avenue",
+    "storyteller_name": "Local Storyteller 2",
+    "storyteller_bio": "Historian and coastal guide of Pondicherry.",
+    "summary": "At the 19th-century Old Lighthouse, the keeper's log points to a cipher hidden in the French War Memorial.",
+    "text_en": "Beside the 19th-century Old Lighthouse, the rhythmic crash of waves against the black volcanic boulders masked the sound of footsteps. The lighthouse keeper's journal revealed that the second cipher was cast into the courtyard of the French War Memorial during the armistice of 1918...",
+    "text_ta": "பழைய கலங்கரை விளக்கத்தின் அருகே அலைகள் பாறைகளில் மோதும் சத்தம் கேட்டது. கலங்கரை விளக்கக் காவலரின் குறிப்பேட்டில் இரண்டாம் ரகசிய குறிப்பு பிரெஞ்சு போர் நினைவிடத்தில் மறைக்கப்பட்டுள்ளதாக எழுதப்பட்டிருந்தது...",
+    "audio_file": "",
+    "location": {
+      "name": "Old Lighthouse",
+      "lat": 11.9318,
+      "lng": 79.8357,
+      "radius_m": 100
+    },
+    "ink_cost_kg": 0.4,
+    "cliffhanger_line": "A bronze medal gleamed near the base of the victory column...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-3",
+    "title": "The War Memorial Cipher",
+    "storyteller_name": "Local Storyteller 3",
+    "storyteller_bio": "French colonial archivist and translator.",
+    "summary": "An engraved compass rose at the French War Memorial points southwest toward the Basilica of the Sacred Heart.",
+    "text_en": "Standing under the solemn arches of the French War Memorial, the inscription honored the soldiers of the First World War. Beneath the central bas-relief lay an engraved compass rose aligned not north, but directly toward the quiet sanctum of the Sacred Heart Basilica...",
+    "text_ta": "பிரெஞ்சு போர் நினைவிடத்தின் அமைதியான வளைவுகளின் கீழ், முதல் உலகப் போரின் வீரர்கள் நினைவுகூரப்படுகிறார்கள். அதன் அடித்தளத்தில் ஒரு திசைகாட்டி செதுக்கப்பட்டிருந்தது...",
+    "audio_file": "",
+    "location": {
+      "name": "French War Memorial",
+      "lat": 11.932,
+      "lng": 79.8358,
+      "radius_m": 80
+    },
+    "ink_cost_kg": 0.5,
+    "cliffhanger_line": "The crimson stained glass filtered a message across the marble aisle...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-4",
+    "title": "The Stained Glass of Sacred Heart",
+    "storyteller_name": "Local Storyteller 4",
+    "storyteller_bio": "Gothic architecture enthusiast and South Boulevard resident.",
+    "summary": "Stained glass reflections in the Basilica illuminate an inscription leading into the lush Botanical Garden.",
+    "text_en": "Sunlight streamed through the neo-Gothic stained glass windows of the Basilica of the Sacred Heart of Jesus. As the ruby and cobalt rays illuminated the sanctuary floor, the shadow of the crucifix pointed toward the shaded canopies of the Botanical Garden...",
+    "text_ta": "தூய இருதய ஆண்டவர் பசிலிக்காவின் வண்ணக் கண்ணாடி ஜன்னல்கள் வழியே சூரிய ஒளி பாய்ந்தது. சிலுவையின் நிழல் தாவரவியல் பூங்காவை நோக்கி காட்டியது...",
+    "audio_file": "",
+    "location": {
+      "name": "Basilica of the Sacred Heart of Jesus",
+      "lat": 11.9259,
+      "lng": 79.8273,
+      "radius_m": 90
+    },
+    "ink_cost_kg": 0.6,
+    "cliffhanger_line": "Deep inside the fossil grove, an etched stone pointed north to Bharathi Park...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-5",
+    "title": "The Whispering Canopy of the Botanical Garden",
+    "storyteller_name": "Local Storyteller 5",
+    "storyteller_bio": "Botanist and educator in Puducherry.",
+    "summary": "Centuries-old mahogany trees shelter an inscribed marker pointing toward the white dome of Aayi Mandapam.",
+    "text_en": "Under the 200-year-old mahogany and cannonball trees of the Botanical Garden, the air was cool and filled with tropical fragrance. Beside the vintage toy train track, an ornate brass plate hidden among tree roots revealed a verse honoring Aayi, the noble maiden whose reservoir saved the town from drought...",
+    "text_ta": "தாவரவியல் பூங்காவின் இருநூறு ஆண்டுகள் பழமையான மரங்களின் கீழ் அமைதி நிலவியது. வேர்களுக்கு இடையே இருந்த பித்தளைத் தகடு ஆயி மண்டபத்தை நோக்கி வழிகாட்டியது...",
+    "audio_file": "",
+    "location": {
+      "name": "Botanical Garden",
+      "lat": 11.9304,
+      "lng": 79.8214,
+      "radius_m": 120
+    },
+    "ink_cost_kg": 0.6,
+    "cliffhanger_line": "The water ripples under Aayi Mandapam reflected the silhouette of Saint Louis...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-6",
+    "title": "The Mystery of Aayi Mandapam",
+    "storyteller_name": "Local Storyteller 6",
+    "storyteller_bio": "Cultural historian and researcher of Franco-Tamil heritage.",
+    "summary": "Beneath Napoleon III's Grecian pavilion in Bharathi Park, an antique seal directs seekers to the French Institute.",
+    "text_en": "In the emerald heart of Bharathi Park stood the gleaming neoclassical Aayi Mandapam, erected during Emperor Napoleon III's reign. Carved within the white pediment above the central spring was a guild insignia belonging to the Royal Asiatic scholars, directing investigators to the palm-leaf manuscripts at the French Institute...",
+    "text_ta": "பாரதி பூங்காவின் நடுவே உள்ள கம்பீரமான ஆயி மண்டபத்தின் வளைவுகளில் ஒரு பழங்கால முத்திரை செதுக்கப்பட்டிருந்தது. அது பிரெஞ்சு நிறுவனத்தின் ஓலைச்சுவடிகளை நோக்கியது...",
+    "audio_file": "",
+    "location": {
+      "name": "Aayi Mandapam (Bharathi Park)",
+      "lat": 11.9333,
+      "lng": 79.8344,
+      "radius_m": 80
+    },
+    "ink_cost_kg": 0.7,
+    "cliffhanger_line": "A sealed envelope rested inside the Indology archive on Rue Saint Louis...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-7",
+    "title": "The Archivist of Saint Louis",
+    "storyteller_name": "Local Storyteller 7",
+    "storyteller_bio": "Manuscript curator and bibliophile.",
+    "summary": "In the archives of the French Institute, a hand-drawn map of textile trade routes points to Cluny Embroidery Centre.",
+    "text_en": "Within the serene scholarly halls of the French Institute on Rue Saint Louis, the scent of aged parchment filled the room. The head archivist unveiled a 1780 cartographic study of Puducherry's weavers. Sketched on the margin was an intricate floral needlework motif leading straight to the convent workshop of Cluny...",
+    "text_ta": "செயின்ட் லூயிஸ் தெருவில் உள்ள பிரெஞ்சு நிறுவனத்தின் நூலகத்தில் பழங்கால நெசவு வரைபடம் கண்டுபிடிக்கப்பட்டது. அதன் விளிம்பில் இருந்த பூத்தையல் குறியீடு குளூனி மையத்தை காட்டியது...",
+    "audio_file": "",
+    "location": {
+      "name": "French Institute of Pondicherry",
+      "lat": 11.9315,
+      "lng": 79.8348,
+      "radius_m": 75
+    },
+    "ink_cost_kg": 0.7,
+    "cliffhanger_line": "A silver needle was threaded with a clue pointing to the temple street...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-8",
+    "title": "The Silken Thread of Rue Romain Rolland",
+    "storyteller_name": "Local Storyteller 8",
+    "storyteller_bio": "Textile artisan and heritage embroiderer.",
+    "summary": "Handmade Irish crochet and French embroidery at Cluny reveal the blessing of the elephant at Manakula Vinayagar.",
+    "text_en": "Inside the tranquil courtyards of the Cluny Embroidery Centre on Rue Romain Rolland, artisan needleworkers practiced an art unchanged since 1829. Woven invisibly into a piece of fine white linen was a Sanskrit sloka dedicating the safety of the port to Lord Ganesha of the Sand Coast...",
+    "text_ta": "ரோமெய்ன் ரோலண்ட் தெருவில் உள்ள குளூனி பூத்தையல் மையத்தில், கைவினைஞர்களின் தையல் வேலையில் ஒரு சமஸ்கிருத சுலோகம் மணக்குள விநாயகர் கோவிலைக் குறிப்பிட்டது...",
+    "audio_file": "",
+    "location": {
+      "name": "Cluny Embroidery Centre",
+      "lat": 11.9327,
+      "lng": 79.8335,
+      "radius_m": 75
+    },
+    "ink_cost_kg": 0.8,
+    "cliffhanger_line": "The temple bell tolled across the street, calling to the northern gate...",
+    "estimated_read_minutes": 4
+  },
+  {
+    "id": "chap-9",
+    "title": "The Golden Vimana of Manakula Vinayagar",
+    "storyteller_name": "Local Storyteller 9",
+    "storyteller_bio": "Temple historian and chronicler of Tamil coastal lore.",
+    "summary": "At the ancient Manakula Vinayagar Temple, an inscription predating French arrival ties the lore to the ancient Roman port of Arikamedu.",
+    "text_en": "Incense and camphor drifted around the golden tower of Arulmigu Manakula Vinayagar Temple, which stood resilient centuries before European merchant ships arrived. Beneath the granite threshold of the outer mandapam lay a stone plaque carved with an ocean vessel, commemorating ancient Greco-Roman trade at the southern river estuary...",
+    "text_ta": "மணக்குள விநாயகர் கோவிலின் தங்க விமானத்தின் கீழ், ஐரோப்பியர்கள் வருவதற்கு முன்பே இருந்த கல்வெட்டு அரிக்கமேட்டின் உரோமானிய வர்த்தகப் பயணத்தை நினைவுபடுத்தியது...",
+    "audio_file": "",
+    "location": {
+      "name": "Arulmigu Manakula Vinayagar Temple",
+      "lat": 11.936,
+      "lng": 79.8342,
+      "radius_m": 80
+    },
+    "ink_cost_kg": 0.8,
+    "cliffhanger_line": "The river mouth was whispered in the breeze: Arikamedu awaits...",
+    "estimated_read_minutes": 5
+  },
+  {
+    "id": "chap-10",
+    "title": "The Lost Amphora of Arikamedu",
+    "storyteller_name": "Local Storyteller 10",
+    "storyteller_bio": "Marine archaeologist and Coromandel coastal researcher.",
+    "summary": "By the Ariyankuppam riverbanks, Roman pottery shards and the final charter unite the legendary heritage ledger of Puducherry.",
+    "text_en": "Where the Ariyankuppam River meets the Bay of Bengal, the brick wharves of Arikamedu stood silent under the casuarina trees. Here, 2,000 years ago, Roman ships unloaded wine amphorae and exchanged Mediterranean beads for Dravidian silk and pearls. The final sealed terracotta vessel held no gold, but the enduring charter of Puducherry: a coastal haven dedicated to universal harmony, sustainable coexistence, and cultural reverence.",
+    "text_ta": "அரியான்குப்பம் நதிக்கரையில் அமைந்துள்ள அரிக்கமேட்டின் பழங்கால உரோமானிய துறைமுகத்தில், இருபது நூற்றாண்டுகளின் வரலாற்று மர்மம் நிறைவு பெற்றது...",
+    "audio_file": "",
+    "location": {
+      "name": "Arikamedu Ancient Roman Port",
+      "lat": 11.895,
+      "lng": 79.8167,
+      "radius_m": 150
+    },
+    "ink_cost_kg": 1.0,
+    "cliffhanger_line": "The ancient trade ledger of the Coromandel coast is restored to the Pondicherry heritage archive.",
+    "estimated_read_minutes": 5
+  }
+]

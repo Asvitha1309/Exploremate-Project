@@ -1,0 +1,240 @@
+[
+  {
+    "id": "aurobindo-ashram",
+    "name": "Sri Aurobindo Ashram",
+    "interest": "heritage",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "review_summary": "Peaceful spiritual sanctum enveloped in silent meditation around the flower-strewn Samadhi.",
+    "opening_hours": {
+      "open_hour": 8,
+      "close_hour": 18,
+      "display": "08:00 AM - 06:00 PM (Daily)"
+    },
+    "lat": 11.9366,
+    "long": 79.8344,
+    "nearby_place_ids": ["manakula-vinayagar", "french-quarter", "promenade-beach"]
+  },
+  {
+    "id": "manakula-vinayagar",
+    "name": "Arulmigu Manakula Vinayagar Temple",
+    "interest": "heritage",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.7,
+    "review_summary": "Ancient 500-year-old Ganesha temple renowned for golden chariot, intricate stone carved pillars, and rich Tamil Dravidian heritage.",
+    "opening_hours": {
+      "open_hour": 6,
+      "close_hour": 21,
+      "display": "06:00 AM - 09:00 PM (Daily)"
+    },
+    "lat": 11.9362,
+    "long": 79.8335,
+    "nearby_place_ids": ["aurobindo-ashram", "french-quarter"]
+  },
+  {
+    "id": "matrimandir-centre",
+    "name": "Matrimandir Visitor Centre & Gardens",
+    "interest": "heritage",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.9,
+    "review_summary": "Architectural wonder featuring the golden meditation sphere, sustainable permaculture exhibits, and shaded walking paths.",
+    "opening_hours": {
+      "open_hour": 9,
+      "close_hour": 17,
+      "display": "09:00 AM - 05:00 PM (Mon-Sat)"
+    },
+    "lat": 12.0070,
+    "long": 79.8107,
+    "nearby_place_ids": ["auroville-bakery", "serenity-beach"]
+  },
+  {
+    "id": "promenade-beach",
+    "name": "Promenade Beach (Rock Beach)",
+    "interest": "nature",
+    "indoor": false,
+    "image": "/static/images/rock_beach.png",
+    "rating": 4.7,
+    "review_summary": "1.5 km sea-facing promenade along the Bay of Bengal, completely vehicle-free in the evenings for eco-friendly walking.",
+    "opening_hours": {
+      "open_hour": 0,
+      "close_hour": 24,
+      "display": "Open 24 Hours (Best 5 AM - 9 PM)"
+    },
+    "lat": 11.9338,
+    "long": 79.8358,
+    "nearby_place_ids": ["french-war-memorial", "french-quarter", "aurobindo-ashram"]
+  },
+  {
+    "id": "serenity-beach",
+    "name": "Serenity Beach & Surf Point",
+    "interest": "nature",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "review_summary": "Golden sands with gentle coastal breakers, traditional wooden catamarans, and eco-certified beginner surf schools.",
+    "opening_hours": {
+      "open_hour": 6,
+      "close_hour": 18,
+      "display": "06:00 AM - 06:30 PM (Daily)"
+    },
+    "lat": 11.9682,
+    "long": 79.8427,
+    "nearby_place_ids": ["matrimandir-centre", "eden-beach"]
+  },
+  {
+    "id": "paradise-beach",
+    "name": "Paradise Beach (Chunnambar Backwaters)",
+    "interest": "nature",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "review_summary": "Pristine isolated spit accessed via scenic solar & electric ferry boats through mangrove backwaters.",
+    "opening_hours": {
+      "open_hour": 9,
+      "close_hour": 17,
+      "display": "09:00 AM - 05:00 PM (Daily)"
+    },
+    "lat": 11.8841,
+    "long": 79.8144,
+    "nearby_place_ids": ["eden-beach", "promenade-beach"]
+  },
+  {
+    "id": "eden-beach",
+    "name": "Eden Beach (Blue Flag Certified)",
+    "interest": "nature",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "review_summary": "Eco-label Blue Flag certified beach with zero plastic waste zones, solar lighting, and clean bathing waters.",
+    "opening_hours": {
+      "open_hour": 6,
+      "close_hour": 18,
+      "display": "06:00 AM - 06:00 PM (Daily)"
+    },
+    "lat": 11.8752,
+    "long": 79.8115,
+    "nearby_place_ids": ["paradise-beach", "promenade-beach"]
+  },
+  {
+    "id": "french-quarter",
+    "name": "White Town (French Heritage Streets)",
+    "interest": "history",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.8,
+    "review_summary": "Pastel mustard yellow colonial villas, bougainvillea draped facades, and cobblestone lanes steeped in Franco-Tamil architecture.",
+    "opening_hours": {
+      "open_hour": 0,
+      "close_hour": 24,
+      "display": "Open 24 Hours (Walking friendly)"
+    },
+    "lat": 11.9320,
+    "long": 79.8335,
+    "nearby_place_ids": ["french-war-memorial", "pondicherry-museum", "promenade-beach"]
+  },
+  {
+    "id": "french-war-memorial",
+    "name": "French War Memorial",
+    "interest": "history",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "review_summary": "Solemn and poignant memorial dedicated to French soldiers from Puducherry who died during World War I.",
+    "opening_hours": {
+      "open_hour": 10,
+      "close_hour": 17,
+      "display": "10:00 AM - 05:00 PM (Daily)"
+    },
+    "lat": 11.9332,
+    "long": 79.8354,
+    "nearby_place_ids": ["promenade-beach", "french-quarter", "pondicherry-museum"]
+  },
+  {
+    "id": "pondicherry-museum",
+    "name": "Pondicherry Museum & Gallery",
+    "interest": "history",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.3,
+    "review_summary": "Fascinating collection of Arikamedu Roman excavation antiquities, Chola bronze relics, and French governor carriages.",
+    "opening_hours": {
+      "open_hour": 10,
+      "close_hour": 17,
+      "display": "10:00 AM - 05:00 PM (Closed Mon)"
+    },
+    "lat": 11.9348,
+    "long": 79.8339,
+    "nearby_place_ids": ["french-quarter", "french-war-memorial", "aurobindo-ashram"]
+  },
+  {
+    "id": "aayi-mandapam",
+    "name": "Bharathi Park & Aayi Mandapam",
+    "interest": "history",
+    "indoor": false,
+    "image": "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "review_summary": "Greco-Roman monument erected during Napoleon III’s era commemorating Aayi, surrounded by tranquil leafy gardens.",
+    "opening_hours": {
+      "open_hour": 6,
+      "close_hour": 20,
+      "display": "06:00 AM - 08:00 PM (Daily)"
+    },
+    "lat": 11.9335,
+    "long": 79.8330,
+    "nearby_place_ids": ["french-quarter", "pondicherry-museum"]
+  },
+  {
+    "id": "casablanca-boutique",
+    "name": "Casablanca Heritage Department Store",
+    "interest": "shopping",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.6,
+    "review_summary": "Iconic multi-level shopping venue in Mission Street featuring handwoven linen, organic leather goods, artisanal home decor, and mini café.",
+    "opening_hours": {
+      "open_hour": 10,
+      "close_hour": 21,
+      "display": "10:00 AM - 09:30 PM (Daily)"
+    },
+    "lat": 11.9328,
+    "long": 79.8288,
+    "nearby_place_ids": ["goubert-market", "french-quarter"]
+  },
+  {
+    "id": "goubert-market",
+    "name": "Grand Bazaar (Goubert Market)",
+    "interest": "shopping",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.5,
+    "review_summary": "Bustling local covered market loaded with fresh organic spices, jasmine flower garlands, traditional palm-leaf basketry, and textiles.",
+    "opening_hours": {
+      "open_hour": 7,
+      "close_hour": 21,
+      "display": "07:00 AM - 09:00 PM (Daily)"
+    },
+    "lat": 11.9315,
+    "long": 79.8265,
+    "nearby_place_ids": ["casablanca-boutique", "french-quarter"]
+  },
+  {
+    "id": "providence-mall",
+    "name": "The Providence Mall Pondicherry",
+    "interest": "shopping",
+    "indoor": true,
+    "image": "https://images.unsplash.com/photo-1567449303078-57ad995bd301?auto=format&fit=crop&w=800&q=80",
+    "rating": 4.4,
+    "review_summary": "Contemporary climate-controlled retail hub offering eco-conscious clothing brands, handicrafts, bookstore, and multiplex.",
+    "opening_hours": {
+      "open_hour": 10,
+      "close_hour": 22,
+      "display": "10:00 AM - 10:00 PM (Daily)"
+    },
+    "lat": 11.9372,
+    "long": 79.8160,
+    "nearby_place_ids": ["casablanca-boutique", "manakula-vinayagar"]
+  }
+]

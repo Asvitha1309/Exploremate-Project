@@ -1,0 +1,62 @@
+[
+  {
+    "id": "food-1",
+    "name": "Coromandel Café & Artisanal Kitchen",
+    "description": "Exquisite European & French cuisine served in an art-filled 19th-century French mansion with an organic produce focus.",
+    "cuisine": "French & Continental",
+    "area": "White Town",
+    "rating": 4.8,
+    "eco_practice": "Direct farm-sourced heirloom vegetables and zero plastic packaging.",
+    "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "food-2",
+    "name": "Café des Arts",
+    "description": "Bohemian colonial café with vintage posters and hibiscus gardens serving wholesome French crêpes, baguettes, and organic coffees.",
+    "cuisine": "French Bakery & Café",
+    "area": "Rue Suffren, White Town",
+    "rating": 4.6,
+    "eco_practice": "Fair-trade shade-grown coffee and upcycled colonial furniture.",
+    "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "food-3",
+    "name": "Surguru Spot",
+    "description": "Legendary South Indian vegetarian dining offering authentic crispy ghee roast dosas, idlis, and traditional filter kaapi.",
+    "cuisine": "South Indian Vegetarian",
+    "area": "Heritage Town",
+    "rating": 4.7,
+    "eco_practice": "Traditional banana leaf dining and 100% plant-based local ingredients.",
+    "image": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "food-4",
+    "name": "Tanto Pizzeria (Auroville)",
+    "description": "Wood-fired artisanal pizzas baked using stone ovens, handmade mozzarella, and fresh organic herbs picked straight from Auroville farms.",
+    "cuisine": "Italian & Wood-Fired",
+    "area": "Auroville Main Road",
+    "rating": 4.7,
+    "eco_practice": "Solar-supplemented ovens and 100% compostable bio-waste stream.",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "food-5",
+    "name": "Crepe in Touch",
+    "description": "Charming quiet courtyard eatery specializing in gluten-free buckwheat galettes, sweet crêpes, and fresh iced herbal infusions.",
+    "cuisine": "Breton Crêperie & Tea",
+    "area": "Rue Dumas",
+    "rating": 4.5,
+    "eco_practice": "Gluten-free traditional buckwheat sourcing and chemical-free tea blends.",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "food-6",
+    "name": "Maison Perumal Restaurant",
+    "description": "Slow-cooked authentic Tamil-French fusion recipes highlighting freshly caught seafood and regional Chettinad spices.",
+    "cuisine": "Tamil-French Heritage",
+    "area": "Perumal Koil Street",
+    "rating": 4.8,
+    "eco_practice": "Sustainable local fishery partnership and native grain promotion.",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+  }
+]

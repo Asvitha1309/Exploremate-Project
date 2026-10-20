@@ -1,0 +1,137 @@
+[
+  {
+    "id": "rev-1",
+    "place_id": "aurobindo-ashram",
+    "user_name": "Aarav Sharma",
+    "user_email": "aarav.s@example.com",
+    "rating": 5,
+    "review_text": "An oasis of quiet contemplation. The silence around the Samadhi in the flower-filled courtyard is unforgettable.",
+    "date": "2026-03-01"
+  },
+  {
+    "id": "rev-2",
+    "place_id": "aurobindo-ashram",
+    "user_name": "Priya Nair",
+    "user_email": "priya.n@example.com",
+    "rating": 5,
+    "review_text": "Very clean, spiritual and serene. Shoes are deposited safely at the entrance. Must visit early in the morning.",
+    "date": "2026-03-04"
+  },
+  {
+    "id": "rev-3",
+    "place_id": "aurobindo-ashram",
+    "user_name": "David Miller",
+    "user_email": "david.m@example.com",
+    "rating": 4,
+    "review_text": "Peaceful atmosphere. Strict rules regarding mobile phones and photography, which preserves the sanctity.",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "rev-4",
+    "place_id": "french-quarter",
+    "user_name": "Kavitha R.",
+    "user_email": "kavitha.r@example.com",
+    "rating": 5,
+    "review_text": "Strolling through Rue Suffren and Romain Rolland Street at sunrise with yellow villas and bougainvillea is pure magic.",
+    "date": "2026-03-02"
+  },
+  {
+    "id": "rev-5",
+    "place_id": "french-quarter",
+    "user_name": "Rohan Deshmukh",
+    "user_email": "rohan.d@example.com",
+    "rating": 5,
+    "review_text": "Bicycle rentals make exploring White Town super eco-friendly and easy. Great French cafés on every corner.",
+    "date": "2026-03-08"
+  },
+  {
+    "id": "rev-6",
+    "place_id": "promenade-beach",
+    "user_name": "Meera Iyer",
+    "user_email": "meera.i@example.com",
+    "rating": 5,
+    "review_text": "Closing the promenade to vehicles after 5 PM is a wonderful eco initiative. Sea breeze and walking along the rocks is sublime.",
+    "date": "2026-03-06"
+  },
+  {
+    "id": "rev-7",
+    "place_id": "promenade-beach",
+    "user_name": "Arjun Patel",
+    "user_email": "arjun.p@example.com",
+    "rating": 4,
+    "review_text": "Can get crowded on weekend evenings, but still clean with fresh air. Do not try to swim in the sea here as it is dangerous.",
+    "date": "2026-03-12"
+  },
+  {
+    "id": "rev-1791446227020",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1215@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "rev-1791446644371",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1791446644371025000@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-08"
+  },
+  {
+    "id": "rev-1792485466409",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792485466409244300@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "rev-1792485540045",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792485540045511900@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "rev-1792486974644",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792486974643875900@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "rev-1792487028885",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792487028885111600@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "rev-1792487603434",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792487603433098300@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  },
+  {
+    "id": "rev-1792487691654",
+    "place_id": "french-quarter",
+    "user_name": "Test Traveler",
+    "user_email": "test.user.1792487691653476700@exploremate.test",
+    "rating": 5,
+    "review_text": "Great heritage atmosphere and peaceful early morning walk.",
+    "date": "2026-10-20"
+  }
+]
